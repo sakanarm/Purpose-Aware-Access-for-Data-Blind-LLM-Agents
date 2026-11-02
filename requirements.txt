@@ -1,0 +1,7 @@
+# Versions used for the published runs (Python 3.12)
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.1
+scipy==1.15.2
+matplotlib==3.10.3
+openai==1.30.1

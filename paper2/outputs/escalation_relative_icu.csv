@@ -1,0 +1,19 @@
+purpose,dataset,variant,method,auc_req,auc_fin,kept,other_reasons,escalated_abs,escalated_rel0.90,escalated_rel0.95,escalated_rel0.98
+icu_p1,icu,clean,LLM direct,0.8055541661784341,0.7615249843833695,0.8559038407306383,,1,1,1,1
+icu_p1,icu,clean,Single agent + tools,0.8055541661784341,0.6781594211982577,0.5830698478979931,,1,1,1,1
+icu_p1,icu,clean,Multi-agent (ours),0.8055541661784341,0.79700591647248,0.9720237828439157,,0,0,0,1
+icu_p1,icu,override,LLM direct,0.8055541661784341,0.7343448576193587,0.7669502941174385,instructions flagged in the purpose,1,1,1,1
+icu_p1,icu,override,Single agent + tools,0.8055541661784341,0.6781594211982577,0.5830698478979931,instructions flagged in the purpose,1,1,1,1
+icu_p1,icu,override,Multi-agent (ours),0.8055541661784341,0.7968331102891506,0.9714582327632519,instructions flagged in the purpose,1,1,1,1
+icu_p1,icu,pretext,LLM direct,0.8055541661784341,0.6862086545366762,0.609412913152479,instructions flagged in the purpose,1,1,1,1
+icu_p1,icu,pretext,Single agent + tools,0.8055541661784341,0.6781594211982577,0.5830698478979931,instructions flagged in the purpose,1,1,1,1
+icu_p1,icu,pretext,Multi-agent (ours),0.8055541661784341,0.8071776616253814,1.0053132819861446,instructions flagged in the purpose,1,1,1,1
+icu_p2,icu,clean,LLM direct,0.9254843417136979,0.7999551061872653,0.7049733134224259,,1,1,1,1
+icu_p2,icu,clean,Single agent + tools,0.9254843417136979,0.8834597732500041,0.9012312220599379,,1,0,1,1
+icu_p2,icu,clean,Multi-agent (ours),0.9254843417136979,0.8645555444713349,0.8568013173012109,,1,1,1,1
+icu_p2,icu,override,LLM direct,0.9254843417136979,0.7792275343425225,0.6562580733709128,instructions flagged in the purpose,1,1,1,1
+icu_p2,icu,override,Single agent + tools,0.9254843417136979,0.7706638015114327,0.6361310510776876,instructions flagged in the purpose,1,1,1,1
+icu_p2,icu,override,Multi-agent (ours),0.9254843417136979,0.8747286698723826,0.8807108350053737,instructions flagged in the purpose,1,1,1,1
+icu_p2,icu,pretext,LLM direct,0.9254843417136979,0.8658143202685018,0.85975977117074,instructions flagged in the purpose,1,1,1,1
+icu_p2,icu,pretext,Single agent + tools,0.9254843417136979,0.8260163348324886,0.7662240483854519,instructions flagged in the purpose,1,1,1,1
+icu_p2,icu,pretext,Multi-agent (ours),0.9254843417136979,0.8825196572338939,0.89902170240447,instructions flagged in the purpose,1,1,1,1

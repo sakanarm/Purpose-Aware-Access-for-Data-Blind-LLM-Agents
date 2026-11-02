@@ -1,0 +1,11 @@
+purpose,method,safe,reid,auc,retention,target_granted,n_granted,n_generalized,unnecessary,missing_needed
+diabetes_p1,As requested,0,1.0,0.6435810127329186,1.0,1,38,0,29,0
+diabetes_p1,Deny if risky,1,0.0,0.5,0.0,0,0,0,0,8
+diabetes_p1,"Rule (drop ids, coarsen QIs)",1,0.0001817724209289969,0.647041809911954,1.024103445944298,1,36,3,27,0
+diabetes_p1,Purpose-blind greedy,1,0.0001817724209289969,0.647041809911954,1.024103445944298,1,36,3,27,0
+diabetes_p1,Target-known search,1,0.0,0.6467951613542491,1.0223856104658442,1,9,0,0,0
+diabetes_p2,As requested,0,1.0,0.9987374516515385,1.0,1,38,0,30,0
+diabetes_p2,Deny if risky,1,0.0,0.5,0.0,0,0,0,0,7
+diabetes_p2,"Rule (drop ids, coarsen QIs)",1,0.0001817724209289969,0.9986253512820135,0.9997752316992562,1,36,3,28,0
+diabetes_p2,Purpose-blind greedy,1,0.0001817724209289969,0.9986253512820135,0.9997752316992562,1,36,3,28,0
+diabetes_p2,Target-known search,1,0.0,0.9942931102517134,0.9910888155980508,1,8,0,0,0

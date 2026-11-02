@@ -1,0 +1,3 @@
+# Store every file byte for byte: paper2/outputs/confirm/LOCK.json holds SHA-256 hashes of the frozen
+# files exactly as written (some with CRLF, some with LF line endings), and s15_confirm.py checks them.
+* -text

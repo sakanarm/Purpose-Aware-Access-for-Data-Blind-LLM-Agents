@@ -1,0 +1,5 @@
+kind,messages,leaked_values
+LLM direct,72,0
+Multi-agent (ours),166,0
+Single agent + tools,3045,0
+positive control,6,152

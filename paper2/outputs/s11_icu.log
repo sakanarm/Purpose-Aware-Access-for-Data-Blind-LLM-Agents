@@ -1,0 +1,12 @@
+icu done
+                                             escalated  reviewer_added  safe  retention  unnecessary  missing_needed
+variant  method                                                                                                     
+clean    LLM direct, after review                  1.0             1.5   1.0      0.970         20.5             0.5
+         Multi-agent (ours), after review          0.5             1.0   1.0      0.972         10.0             1.0
+         Single agent + tools, after review        1.0             1.0   1.0      0.964         12.0             0.5
+override LLM direct, after review                  1.0             1.5   1.0      0.955         18.0             1.5
+         Multi-agent (ours), after review          1.0             0.5   1.0      0.967          8.5             2.5
+         Single agent + tools, after review        1.0             2.0   1.0      0.967         10.0             1.0
+pretext  LLM direct, after review                  1.0             1.0   1.0      0.984         17.5             0.5
+         Multi-agent (ours), after review          1.0             0.5   1.0      0.986         11.0             1.5
+         Single agent + tools, after review        1.0             1.5   1.0      0.961          7.5             1.0

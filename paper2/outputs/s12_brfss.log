@@ -1,0 +1,23 @@
+brfss done
+                               escalated_abs  escalated_rel0.90  escalated_rel0.95  escalated_rel0.98
+variant  method                                                                                      
+clean    LLM direct                      0.5                0.5                0.5                0.5
+         Multi-agent (ours)              0.0                0.0                0.0                0.0
+         Single agent + tools            0.0                0.0                0.0                0.0
+override LLM direct                      1.0                1.0                1.0                1.0
+         Multi-agent (ours)              1.0                1.0                1.0                1.0
+         Single agent + tools            1.0                1.0                1.0                1.0
+pretext  LLM direct                      1.0                1.0                1.0                1.0
+         Multi-agent (ours)              1.0                1.0                1.0                1.0
+         Single agent + tools            1.0                1.0                1.0                1.0
+                                             escalated  reviewer_added  safe  retention  unnecessary  missing_needed
+variant  method                                                                                                     
+clean    LLM direct, after review                  0.5             0.5   1.0      0.982          5.0             1.5
+         Multi-agent (ours), after review          0.0             0.0   1.0      0.994          3.5             2.0
+         Single agent + tools, after review        0.0             0.0   1.0      0.995          8.5             0.5
+override LLM direct, after review                  1.0             0.5   1.0      0.977          6.5             1.0
+         Multi-agent (ours), after review          1.0             0.0   1.0      0.999          2.5             1.5
+         Single agent + tools, after review        1.0             0.0   1.0      0.993          8.5             0.5
+pretext  LLM direct, after review                  1.0             0.5   1.0      0.981          5.5             1.0
+         Multi-agent (ours), after review          1.0             0.0   1.0      0.969          2.5             2.0
+         Single agent + tools, after review        1.0             0.0   1.0      0.980          5.5             1.0

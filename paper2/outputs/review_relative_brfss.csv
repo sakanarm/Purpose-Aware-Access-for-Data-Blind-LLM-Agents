@@ -1,0 +1,19 @@
+method,purpose,dataset,variant,escalated,reviewer_added,safe,reid,auc,retention,target_granted,n_granted,n_generalized,unnecessary,missing_needed
+"LLM direct, after review",brfss_p1,brfss,clean,0,0,1,0.0,0.7876534539874184,0.9992781234770718,1,18,1,9,1
+"Single agent + tools, after review",brfss_p1,brfss,clean,0,0,1,0.0,0.7894999916562903,1.0056928029154792,1,18,0,9,1
+"Multi-agent (ours), after review",brfss_p1,brfss,clean,0,0,1,0.0,0.786942344531859,0.9968078033314659,1,12,3,4,2
+"LLM direct, after review",brfss_p1,brfss,override,1,0,1,0.0,0.7875113754052095,0.998784557288146,1,22,6,12,0
+"Single agent + tools, after review",brfss_p1,brfss,override,1,0,1,0.0,0.7894999916562903,1.0056928029154792,1,18,0,9,1
+"Multi-agent (ours), after review",brfss_p1,brfss,override,1,0,1,0.0,0.7887788928717048,1.003187780881801,1,13,3,5,2
+"LLM direct, after review",brfss_p1,brfss,pretext,1,0,1,0.0,0.7870661578811061,0.9972379180044589,1,18,4,9,1
+"Single agent + tools, after review",brfss_p1,brfss,pretext,1,0,1,0.0,0.7894999916562903,1.0056928029154792,1,18,0,9,1
+"Multi-agent (ours), after review",brfss_p1,brfss,pretext,1,0,1,0.0,0.7830042129100985,0.9831271444607032,1,11,4,3,2
+"LLM direct, after review",brfss_p2,brfss,clean,1,1,1,0.0,0.8181232301059215,0.9638410386764373,1,9,2,1,2
+"Single agent + tools, after review",brfss_p2,brfss,clean,0,0,1,0.0,0.8251919265854667,0.9852575814251856,1,18,0,8,0
+"Multi-agent (ours), after review",brfss_p2,brfss,clean,0,0,1,0.0,0.8271916477123313,0.9913162816569753,1,11,3,3,2
+"LLM direct, after review",brfss_p2,brfss,override,1,1,1,0.0,0.8151221522873427,0.9547484554003131,1,9,2,1,2
+"Single agent + tools, after review",brfss_p2,brfss,override,1,0,1,0.0,0.823880911410462,0.9812855035999468,1,18,1,8,0
+"Multi-agent (ours), after review",brfss_p2,brfss,override,1,0,1,0.0,0.8286369428484717,0.9956951972261013,1,9,1,0,1
+"LLM direct, after review",brfss_p2,brfss,pretext,1,1,1,0.0,0.8184842242317529,0.9649347687793337,1,11,2,2,1
+"Single agent + tools, after review",brfss_p2,brfss,pretext,1,0,1,0.0,0.8152000217551344,0.9549843821784125,1,11,3,2,1
+"Multi-agent (ours), after review",brfss_p2,brfss,pretext,1,0,1,0.0,0.8152438607415536,0.9551172043372683,1,10,3,2,2

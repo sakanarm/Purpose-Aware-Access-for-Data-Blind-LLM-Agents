@@ -1,0 +1,173 @@
+2026-11-02 00:38 run: 0/171 units done, 171 to go, 4 workers
+00:38 [1/171] c_brfss_02 TH-mix clean LLM direct 17s
+00:39 [2/171] c_brfss_01 TH-mix clean Multi-agent (ours) 46s
+00:39 [3/171] c_brfss_01 TH-mix clean Single agent + tools 63s
+00:39 [4/171] c_brfss_02 TH-mix clean Single agent + tools 49s
+00:39 [5/171] c_brfss_02 TH-mix clean Multi-agent (ours) 28s
+00:39 [6/171] c_brfss_03 TH-mix clean LLM direct 15s
+00:39 [7/171] c_brfss_03 TH-mix clean Multi-agent (ours) 10s
+00:40 [8/171] c_brfss_01 TH-mix clean LLM direct 103s
+00:40 [9/171] c_brfss_04 TH-mix clean LLM direct 30s
+00:40 [10/171] c_brfss_05 TH-mix clean LLM direct 20s
+00:40 [11/171] c_brfss_04 TH-mix clean Single agent + tools 57s
+00:40 [12/171] c_brfss_04 TH-mix clean Multi-agent (ours) 43s
+00:41 [13/171] c_brfss_06 TH-mix clean LLM direct 14s
+00:41 [14/171] c_brfss_05 TH-mix clean Multi-agent (ours) 20s
+00:41 [15/171] c_brfss_05 TH-mix clean Single agent + tools 60s
+00:41 [16/171] c_brfss_07 TH-mix clean LLM direct 10s
+00:42 [17/171] c_brfss_06 TH-mix clean Multi-agent (ours) 51s
+00:42 [18/171] c_brfss_06 TH-mix clean Single agent + tools 66s
+00:42 [19/171] c_brfss_07 TH-mix clean Multi-agent (ours) 22s
+00:42 [20/171] c_brfss_09 TH-mix clean LLM direct 9s
+00:43 [21/171] c_brfss_09 TH-mix clean Multi-agent (ours) 32s
+00:43 [22/171] c_brfss_09 TH-mix clean Single agent + tools 40s
+00:43 [23/171] c_brfss_10 TH-mix clean LLM direct 11s
+00:43 [24/171] c_brfss_10 TH-mix clean Multi-agent (ours) 18s
+00:43 [25/171] c_brfss_11 TH-mix clean LLM direct 18s
+00:44 [26/171] c_brfss_11 TH-mix clean Single agent + tools 38s
+00:44 [27/171] c_brfss_10 TH-mix clean Single agent + tools 77s
+00:44 [28/171] c_brfss_12 TH-mix clean LLM direct 16s
+00:44 [29/171] c_brfss_11 TH-mix clean Multi-agent (ours) 30s
+00:45 [30/171] c_brfss_07 TH-mix clean Single agent + tools 188s
+00:45 [31/171] c_brfss_03 TH-mix clean Single agent + tools 343s
+00:45 [32/171] c_brfss_13 TH-mix clean LLM direct 23s
+00:46 [33/171] c_brfss_12 TH-mix clean Multi-agent (ours) 85s
+00:46 [34/171] c_brfss_13 TH-mix clean Single agent + tools 72s
+00:46 [35/171] c_brfss_14 TH-mix clean LLM direct 13s
+00:46 [36/171] c_brfss_12 TH-mix clean Single agent + tools 116s
+00:46 [37/171] c_brfss_13 TH-mix clean Multi-agent (ours) 80s
+00:47 [38/171] c_brfss_15 TH-mix clean LLM direct 25s
+00:47 [39/171] c_brfss_14 TH-mix clean Multi-agent (ours) 47s
+00:47 [40/171] c_brfss_15 TH-mix clean Multi-agent (ours) 34s
+00:47 [41/171] c_brfss_15 TH-mix clean Single agent + tools 60s
+00:48 [42/171] c_brfss_14 TH-mix clean Single agent + tools 97s
+00:48 [43/171] c_diabetes_01 TH-mix clean LLM direct 57s
+00:48 [44/171] c_diabetes_02 TH-mix clean LLM direct 23s
+00:48 [45/171] c_diabetes_01 TH-mix clean Single agent + tools 68s
+00:48 [46/171] c_diabetes_01 TH-mix clean Multi-agent (ours) 72s
+00:49 [47/171] c_diabetes_03 TH-mix clean LLM direct 20s
+00:49 [48/171] c_diabetes_02 TH-mix clean Multi-agent (ours) 56s
+00:49 [49/171] c_diabetes_04 TH-mix clean LLM direct 21s
+00:50 [50/171] c_diabetes_03 TH-mix clean Multi-agent (ours) 88s
+00:51 [51/171] c_diabetes_04 TH-mix clean Single agent + tools 80s
+00:51 [52/171] c_diabetes_05 TH-mix clean LLM direct 22s
+00:51 [53/171] c_diabetes_04 TH-mix clean Multi-agent (ours) 73s
+00:52 [54/171] c_diabetes_05 TH-mix clean Single agent + tools 24s
+00:52 [55/171] c_diabetes_05 TH-mix clean Multi-agent (ours) 14s
+00:52 [56/171] c_diabetes_06 TH-mix clean LLM direct 14s
+00:53 [57/171] c_diabetes_06 TH-mix clean Multi-agent (ours) 55s
+00:53 [58/171] c_diabetes_06 TH-mix clean Single agent + tools 75s
+00:53 [59/171] c_diabetes_03 TH-mix clean Single agent + tools 268s
+00:53 [60/171] c_diabetes_07 TH-mix clean LLM direct 32s
+00:53 [61/171] c_diabetes_02 TH-mix clean Single agent + tools 328s
+00:53 [62/171] c_diabetes_08 TH-mix clean LLM direct 15s
+00:54 [63/171] c_diabetes_07 TH-mix clean Multi-agent (ours) 33s
+00:54 [64/171] c_diabetes_08 TH-mix clean Multi-agent (ours) 23s
+00:54 [65/171] c_diabetes_07 TH-mix clean Single agent + tools 68s
+00:55 [66/171] c_diabetes_08 TH-mix clean Single agent + tools 65s
+00:55 [67/171] c_diabetes_09 TH-mix clean LLM direct 86s
+00:55 [68/171] c_diabetes_10 TH-mix clean LLM direct 29s
+00:55 [69/171] c_diabetes_09 TH-mix clean Single agent + tools 88s
+00:56 [70/171] c_diabetes_11 TH-mix clean LLM direct 28s
+00:56 [71/171] c_diabetes_09 TH-mix clean Multi-agent (ours) 123s
+00:57 [72/171] c_diabetes_10 TH-mix clean Multi-agent (ours) 118s
+00:57 [73/171] c_diabetes_11 TH-mix clean Multi-agent (ours) 71s
+00:57 [74/171] c_diabetes_12 TH-mix clean LLM direct 15s
+00:58 [75/171] c_diabetes_11 TH-mix clean Single agent + tools 104s
+00:58 [76/171] c_diabetes_12 TH-mix clean Multi-agent (ours) 24s
+00:58 [77/171] c_diabetes_13 TH-mix clean LLM direct 14s
+00:58 [78/171] c_diabetes_10 TH-mix clean Single agent + tools 210s
+00:59 [79/171] c_diabetes_13 TH-mix clean Multi-agent (ours) 48s
+00:59 [80/171] c_diabetes_14 TH-mix clean LLM direct 20s
+00:59 [81/171] c_diabetes_12 TH-mix clean Single agent + tools 102s
+00:59 [82/171] c_diabetes_15 TH-mix clean LLM direct 16s
+01:00 [83/171] c_diabetes_14 TH-mix clean Multi-agent (ours) 78s
+01:00 [84/171] c_diabetes_15 TH-mix clean Single agent + tools 60s
+01:01 [85/171] c_icu_01 TH-mix clean LLM direct 26s
+01:01 [86/171] c_diabetes_15 TH-mix clean Multi-agent (ours) 62s
+01:01 [87/171] c_diabetes_14 TH-mix clean Single agent + tools 163s
+01:02 [88/171] c_icu_02 TH-mix clean LLM direct 11s
+01:02 [89/171] c_diabetes_13 TH-mix clean Single agent + tools 256s
+01:03 [90/171] c_icu_02 TH-mix clean Multi-agent (ours) 45s
+01:03 [91/171] c_icu_01 TH-mix clean Multi-agent (ours) 95s
+01:03 [92/171] c_icu_03 TH-mix clean LLM direct 17s
+01:03 [93/171] c_icu_02 TH-mix clean Single agent + tools 86s
+01:03 [94/171] c_icu_01 TH-mix clean Single agent + tools 141s
+01:03 [95/171] c_icu_04 TH-mix clean LLM direct 15s
+01:04 [96/171] c_icu_04 TH-mix clean Multi-agent (ours) 27s
+01:04 [97/171] c_icu_04 TH-mix clean Single agent + tools 55s
+01:04 [98/171] c_icu_05 TH-mix clean LLM direct 34s
+01:04 [99/171] c_icu_03 TH-mix clean Single agent + tools 96s
+01:05 [100/171] c_icu_03 TH-mix clean Multi-agent (ours) 95s
+01:05 [101/171] c_icu_06 TH-mix clean LLM direct 16s
+01:05 [102/171] c_icu_06 TH-mix clean Single agent + tools 27s
+01:05 [103/171] c_icu_05 TH-mix clean Single agent + tools 67s
+01:05 [104/171] c_icu_06 TH-mix clean Multi-agent (ours) 50s
+01:06 [105/171] c_icu_05 TH-mix clean Multi-agent (ours) 102s
+01:06 [106/171] c_icu_08 TH-mix clean LLM direct 25s
+01:07 [107/171] c_icu_07 TH-mix clean LLM direct 90s
+01:07 [108/171] c_icu_07 TH-mix clean Single agent + tools 96s
+01:07 [109/171] c_icu_07 TH-mix clean Multi-agent (ours) 84s
+01:07 [110/171] c_icu_09 TH-mix clean LLM direct 26s
+01:08 [111/171] c_icu_08 TH-mix clean Multi-agent (ours) 66s
+01:08 [112/171] c_icu_08 TH-mix clean Single agent + tools 82s
+01:08 [113/171] c_icu_10 TH-mix clean LLM direct 35s
+01:09 [114/171] c_icu_09 TH-mix clean Multi-agent (ours) 78s
+01:09 [115/171] c_icu_09 TH-mix clean Single agent + tools 106s
+01:09 [116/171] c_icu_10 TH-mix clean Single agent + tools 60s
+01:09 [117/171] c_icu_11 TH-mix clean LLM direct 16s
+01:09 [118/171] c_icu_10 TH-mix clean Multi-agent (ours) 37s
+01:09 [119/171] c_icu_12 TH-mix clean LLM direct 22s
+01:11 [120/171] c_icu_11 TH-mix clean Single agent + tools 115s
+01:11 [121/171] c_icu_12 TH-mix clean Single agent + tools 108s
+01:11 [122/171] c_icu_11 TH-mix clean Multi-agent (ours) 112s
+01:11 [123/171] c_icu_12 TH-mix clean Multi-agent (ours) 90s
+01:11 [124/171] c_icu_13 TH-mix clean LLM direct 15s
+01:11 [125/171] c_icu_14 TH-mix clean LLM direct 17s
+01:12 [126/171] c_icu_14 TH-mix clean Multi-agent (ours) 64s
+01:12 [127/171] c_icu_13 TH-mix clean Single agent + tools 89s
+01:12 [128/171] c_insurance_01 TH-mix clean LLM direct 11s
+01:12 [129/171] c_icu_13 TH-mix clean Multi-agent (ours) 102s
+01:13 [130/171] c_icu_14 TH-mix clean Single agent + tools 101s
+01:13 [131/171] c_insurance_02 TH-mix clean LLM direct 11s
+01:13 [132/171] c_insurance_01 TH-mix clean Multi-agent (ours) 32s
+01:13 [133/171] c_insurance_02 TH-mix clean Multi-agent (ours) 17s
+01:13 [134/171] c_stroke_01 TH-mix clean LLM direct 11s
+01:13 [135/171] c_insurance_01 TH-mix clean Single agent + tools 59s
+01:13 [136/171] c_stroke_01 TH-mix clean Multi-agent (ours) 22s
+01:13 [137/171] c_stroke_02 TH-mix clean LLM direct 14s
+01:14 [138/171] c_insurance_02 TH-mix clean Single agent + tools 58s
+01:14 [139/171] c_stroke_02 TH-mix clean Multi-agent (ours) 21s
+01:14 [140/171] c_stroke_03 TH-mix clean LLM direct 18s
+01:14 [141/171] c_stroke_03 TH-mix clean Multi-agent (ours) 16s
+01:14 [142/171] c_stroke_02 TH-mix clean Single agent + tools 48s
+01:14 [143/171] c_stroke_01 TH-mix clean Single agent + tools 80s
+01:14 [144/171] c_stroke_04 TH-mix clean LLM direct 12s
+01:15 [145/171] c_synthea_01 TH-mix clean LLM direct 15s
+01:15 [146/171] c_stroke_04 TH-mix clean Multi-agent (ours) 43s
+01:15 [147/171] c_stroke_03 TH-mix clean Single agent + tools 85s
+01:16 [148/171] c_stroke_04 TH-mix clean Single agent + tools 79s
+01:16 [149/171] c_synthea_02 TH-mix clean LLM direct 29s
+01:16 [150/171] c_synthea_02 TH-mix clean Single agent + tools 41s
+01:16 [151/171] c_synthea_01 TH-mix clean Multi-agent (ours) 87s
+01:17 [152/171] c_synthea_01 TH-mix clean Single agent + tools 119s
+01:17 [153/171] c_synthea_02 TH-mix clean Multi-agent (ours) 57s
+01:17 [154/171] c_synthea_03 TH-mix clean LLM direct 38s
+01:17 [155/171] c_synthea_04 TH-mix clean LLM direct 16s
+01:18 [156/171] c_synthea_04 TH-mix clean Single agent + tools 55s
+01:18 [157/171] c_synthea_04 TH-mix clean Multi-agent (ours) 60s
+01:18 [158/171] c_synthea_05 TH-mix clean LLM direct 16s
+01:18 [159/171] c_synthea_03 TH-mix clean Multi-agent (ours) 101s
+01:19 [160/171] c_synthea_06 TH-mix clean LLM direct 22s
+01:19 [161/171] c_synthea_03 TH-mix clean Single agent + tools 149s
+01:19 [162/171] c_synthea_05 TH-mix clean Multi-agent (ours) 52s
+01:19 [163/171] c_synthea_07 TH-mix clean LLM direct 12s
+01:20 [164/171] c_synthea_06 TH-mix clean Multi-agent (ours) 58s
+01:21 [165/171] c_synthea_06 TH-mix clean Single agent + tools 116s
+01:21 [166/171] c_synthea_07 TH-mix clean Multi-agent (ours) 48s
+01:21 [167/171] c_synthea_08 TH-mix clean LLM direct 8s
+01:21 [168/171] c_synthea_05 TH-mix clean Single agent + tools 182s
+01:21 [169/171] c_synthea_08 TH-mix clean Single agent + tools 22s
+01:21 [170/171] c_synthea_08 TH-mix clean Multi-agent (ours) 26s
+01:21 [171/171] c_synthea_07 TH-mix clean Single agent + tools 124s
+2026-11-02 01:21 run ended. 0 units left -- all done; next: collect

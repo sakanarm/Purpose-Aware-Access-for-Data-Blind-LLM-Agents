@@ -1,0 +1,65 @@
+{
+ "stroke": {
+  "id": "รหัสผู้ป่วย", "gender": "เพศ", "age": "อายุ", "ever_married": "เคยสมรส", "work_type": "ลักษณะงาน",
+  "residence_type": "เขตที่อยู่อาศัย", "hypertension": "ความดันโลหิตสูง", "heart_disease": "โรคหัวใจ",
+  "avg_glucose_level": "ระดับน้ำตาลเฉลี่ย", "bmi": "ดัชนีมวลกาย", "smoking_status": "สถานะการสูบบุหรี่",
+  "stroke": "โรคหลอดเลือดสมอง"
+ },
+ "insurance": {
+  "age": "อายุ", "sex": "เพศ", "children": "จำนวนบุตร", "region": "ภูมิภาค", "bmi": "ดัชนีมวลกาย",
+  "smoker": "สูบบุหรี่", "charges": "ค่ารักษาพยาบาล"
+ },
+ "brfss": {
+  "sex": "เพศ", "age": "กลุ่มอายุ", "education": "ระดับการศึกษา", "income": "ระดับรายได้",
+  "anyhealthcare": "มีหลักประกันสุขภาพ", "nodocbccost": "ไม่ได้พบแพทย์เพราะค่าใช้จ่าย",
+  "diabetes_012": "สถานะเบาหวาน", "highbp": "ความดันโลหิตสูง", "highchol": "คอเลสเตอรอลสูง",
+  "cholcheck": "ตรวจคอเลสเตอรอลใน5ปี", "bmi": "ดัชนีมวลกาย", "smoker": "เคยสูบบุหรี่",
+  "stroke": "เคยเป็นโรคหลอดเลือดสมอง", "heartdiseaseorattack": "โรคหัวใจหรือหัวใจวาย",
+  "physactivity": "ออกกำลังกายใน30วัน", "fruits": "กินผลไม้ทุกวัน", "veggies": "กินผักทุกวัน",
+  "hvyalcoholconsump": "ดื่มแอลกอฮอล์หนัก", "genhlth": "สุขภาพโดยรวม", "menthlth": "วันที่สุขภาพจิตไม่ดี",
+  "physhlth": "วันที่สุขภาพกายไม่ดี", "diffwalk": "เดินหรือขึ้นบันไดลำบาก"
+ },
+ "icu": {
+  "encounter_id": "รหัสการเข้ารับบริการ", "patient_id": "รหัสผู้ป่วย", "age": "อายุ", "gender": "เพศ",
+  "ethnicity": "เชื้อชาติ", "height": "ส่วนสูง", "weight": "น้ำหนัก", "hospital_id": "รหัสโรงพยาบาล",
+  "icu_id": "รหัสไอซียู", "icu_admit_source": "แหล่งที่มาก่อนเข้าไอซียู", "icu_stay_type": "ประเภทการพักไอซียู",
+  "icu_type": "ประเภทไอซียู", "elective_surgery": "ผ่าตัดตามนัด", "bmi": "ดัชนีมวลกาย",
+  "pre_icu_los_days": "จำนวนวันนอนก่อนเข้าไอซียู", "apache_2_diagnosis": "รหัสวินิจฉัยAPACHE2",
+  "apache_3j_diagnosis": "รหัสวินิจฉัยAPACHE3J", "apache_post_operative": "หลังผ่าตัด",
+  "arf_apache": "ไตวายเฉียบพลัน", "intubated_apache": "ใส่ท่อช่วยหายใจ", "ventilated_apache": "ใช้เครื่องช่วยหายใจ",
+  "heart_rate_apache": "อัตราการเต้นหัวใจ", "map_apache": "ความดันเลือดแดงเฉลี่ย", "temp_apache": "อุณหภูมิร่างกาย",
+  "d1_glucose_max": "น้ำตาลสูงสุดวันแรก", "d1_potassium_max": "โพแทสเซียมสูงสุดวันแรก", "aids": "โรคเอดส์",
+  "cirrhosis": "ตับแข็ง", "diabetes_mellitus": "เบาหวาน", "hepatic_failure": "ตับวาย",
+  "immunosuppression": "ภูมิคุ้มกันบกพร่อง", "leukemia": "มะเร็งเม็ดเลือดขาว", "lymphoma": "มะเร็งต่อมน้ำเหลือง",
+  "solid_tumor_with_metastasis": "มะเร็งแพร่กระจาย", "apache_3j_bodysystem": "ระบบร่างกายที่เป็นสาเหตุหลัก",
+  "apache_4a_hospital_death_prob": "ความน่าจะเป็นเสียชีวิตตามAPACHE4", "hospital_death": "เสียชีวิตในโรงพยาบาล"
+ },
+ "diabetes": {
+  "encounter_id": "รหัสการเข้ารับบริการ", "patient_nbr": "เลขประจำตัวผู้ป่วย", "race": "เชื้อชาติ", "gender": "เพศ",
+  "age": "กลุ่มอายุ", "weight": "น้ำหนัก", "payer_code": "สิทธิการรักษา", "admission_type_id": "ประเภทการรับไว้",
+  "discharge_disposition_id": "สถานะการจำหน่าย", "admission_source_id": "แหล่งที่มาของการรับไว้",
+  "medical_specialty": "แผนกที่รับผิดชอบ", "time_in_hospital": "จำนวนวันนอน",
+  "num_lab_procedures": "จำนวนการตรวจทางห้องปฏิบัติการ", "num_procedures": "จำนวนหัตถการ",
+  "num_medications": "จำนวนรายการยา", "number_outpatient": "จำนวนครั้งผู้ป่วยนอก",
+  "number_emergency": "จำนวนครั้งห้องฉุกเฉิน", "number_inpatient": "จำนวนครั้งผู้ป่วยใน",
+  "number_diagnoses": "จำนวนการวินิจฉัย", "diag_1": "การวินิจฉัยหลัก", "diag_2": "การวินิจฉัยรอง1",
+  "diag_3": "การวินิจฉัยรอง2", "max_glu_serum": "ผลน้ำตาลในซีรั่ม", "a1cresult": "ผลน้ำตาลสะสม",
+  "change": "เปลี่ยนยาเบาหวาน", "diabetesmed": "ได้รับยาเบาหวาน", "readmitted": "กลับมานอนซ้ำ",
+  "metformin": "เมทฟอร์มิน", "repaglinide": "รีพากลิไนด์", "nateglinide": "นาทีกลิไนด์",
+  "glimepiride": "กลิเมพิไรด์", "glipizide": "กลิพิไซด์", "glyburide": "ไกลบูไรด์", "pioglitazone": "ไพโอกลิทาโซน",
+  "rosiglitazone": "โรซิกลิทาโซน", "acarbose": "อะคาร์โบส", "insulin": "อินซูลิน",
+  "glyburide_metformin": "ไกลบูไรด์ร่วมเมทฟอร์มิน"
+ },
+ "synthea": {
+  "ssn": "เลขประจำตัวประชาชน", "drivers": "เลขใบขับขี่", "passport": "เลขหนังสือเดินทาง", "first": "ชื่อ",
+  "last": "นามสกุล", "maiden": "นามสกุลเดิม", "address": "ที่อยู่", "birthdate": "วันเกิด", "birth_year": "ปีเกิด",
+  "gender": "เพศ", "race": "เชื้อชาติ", "ethnicity": "ชาติพันธุ์", "marital": "สถานภาพสมรส",
+  "birthplace": "สถานที่เกิด", "city": "เมือง", "county": "เขตปกครอง", "zip": "รหัสไปรษณีย์",
+  "encounter_date": "วันที่เข้ารับบริการ", "deathdate": "วันที่เสียชีวิต", "encounterclass": "ประเภทการเข้ารับบริการ",
+  "description": "รายละเอียดการเข้ารับบริการ", "reasondescription": "เหตุผลที่มารับบริการ", "condition": "ภาวะหรือโรค",
+  "medication": "ยาที่ได้รับ", "base_encounter_cost": "ค่าบริการพื้นฐาน", "total_claim_cost": "ยอดเรียกเก็บรวม",
+  "payer_coverage": "ยอดที่ผู้จ่ายเงินรับผิดชอบ", "healthcare_expenses": "ค่าใช้จ่ายสุขภาพสะสม",
+  "healthcare_coverage": "ยอดคุ้มครองสะสม", "payer_name": "ชื่อผู้จ่ายเงิน", "organization": "สถานพยาบาล",
+  "provider": "แพทย์ผู้ให้บริการ"
+ }
+}

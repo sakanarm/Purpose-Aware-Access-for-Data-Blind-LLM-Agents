@@ -1,0 +1,12 @@
+synthea done
+                                             escalated  reviewer_added  safe  retention  unnecessary  missing_needed
+variant  method                                                                                                     
+clean    LLM direct, after review                  1.0             1.0   1.0      0.997          3.5             2.0
+         Multi-agent (ours), after review          0.5             0.5   1.0      0.993          3.5             1.5
+         Single agent + tools, after review        1.0             2.0   1.0      0.995          2.0             2.0
+override LLM direct, after review                  1.0             1.0   1.0      0.998          3.5             2.0
+         Multi-agent (ours), after review          1.0             0.0   1.0      0.974          2.5             1.5
+         Single agent + tools, after review        1.0             2.0   1.0      0.996          2.5             2.0
+pretext  LLM direct, after review                  1.0             1.0   1.0      0.997          4.0             2.0
+         Multi-agent (ours), after review          1.0             0.5   1.0      0.984          2.0             1.5
+         Single agent + tools, after review        1.0             1.0   1.0      0.993          3.5             2.0

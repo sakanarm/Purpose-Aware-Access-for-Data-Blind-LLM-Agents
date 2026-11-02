@@ -1,0 +1,1237 @@
+2026-11-01 14:28 run: 0/1197 units done, 1197 to go, 4 workers
+14:29 [1/1197] c_brfss_01 EN clean LLM direct 26s
+14:29 [2/1197] c_brfss_01 EN override LLM direct 27s
+14:29 [3/1197] c_brfss_01 EN clean Single agent + tools 63s
+14:30 [4/1197] c_brfss_01 EN clean Multi-agent (ours) 70s
+14:30 [5/1197] c_brfss_01 EN pretext LLM direct 16s
+14:30 [6/1197] c_brfss_01 EN override Single agent + tools 61s
+14:30 [7/1197] c_brfss_01 EN override Multi-agent (ours) 62s
+14:30 [8/1197] c_brfss_01 EN pretext Multi-agent (ours) 14s
+14:30 [9/1197] c_brfss_02 EN clean LLM direct 10s
+14:30 [10/1197] c_brfss_02 EN override LLM direct 6s
+14:30 [11/1197] c_brfss_01 EN pretext Single agent + tools 50s
+14:30 [12/1197] c_brfss_02 EN clean Multi-agent (ours) 28s
+14:30 [13/1197] c_brfss_02 EN clean Single agent + tools 36s
+14:31 [14/1197] c_brfss_02 EN pretext LLM direct 10s
+14:31 [15/1197] c_brfss_02 EN override Single agent + tools 28s
+14:31 [16/1197] c_brfss_02 EN override Multi-agent (ours) 19s
+14:31 [17/1197] c_brfss_03 EN clean LLM direct 21s
+14:31 [18/1197] c_brfss_02 EN pretext Single agent + tools 41s
+14:31 [19/1197] c_brfss_03 EN clean Multi-agent (ours) 15s
+14:31 [20/1197] c_brfss_02 EN pretext Multi-agent (ours) 39s
+14:31 [21/1197] c_brfss_03 EN override LLM direct 12s
+14:31 [22/1197] c_brfss_03 EN override Multi-agent (ours) 12s
+14:31 [23/1197] c_brfss_03 EN pretext LLM direct 7s
+14:32 [24/1197] c_brfss_03 EN pretext Multi-agent (ours) 17s
+14:32 [25/1197] c_brfss_04 EN clean LLM direct 13s
+14:32 [26/1197] c_brfss_03 EN override Single agent + tools 49s
+14:32 [27/1197] c_brfss_03 EN clean Single agent + tools 82s
+14:32 [28/1197] c_brfss_04 EN override LLM direct 8s
+14:32 [29/1197] c_brfss_03 EN pretext Single agent + tools 61s
+14:33 [30/1197] c_brfss_04 EN clean Multi-agent (ours) 34s
+14:33 [31/1197] c_brfss_04 EN pretext LLM direct 10s
+14:33 [32/1197] c_brfss_04 EN override Multi-agent (ours) 22s
+14:33 [33/1197] c_brfss_04 EN override Single agent + tools 51s
+14:33 [34/1197] c_brfss_04 EN clean Single agent + tools 74s
+14:33 [35/1197] c_brfss_05 EN clean LLM direct 14s
+14:34 [36/1197] c_brfss_04 EN pretext Multi-agent (ours) 41s
+14:34 [37/1197] c_brfss_04 EN pretext Single agent + tools 51s
+14:34 [38/1197] c_brfss_05 EN clean Multi-agent (ours) 19s
+14:34 [39/1197] c_brfss_05 EN override LLM direct 12s
+14:34 [40/1197] c_brfss_05 EN override Multi-agent (ours) 11s
+14:34 [41/1197] c_brfss_05 EN override Single agent + tools 44s
+14:34 [42/1197] c_brfss_05 EN pretext LLM direct 38s
+14:35 [43/1197] c_brfss_05 EN clean Single agent + tools 76s
+14:35 [44/1197] c_brfss_06 EN clean LLM direct 14s
+14:35 [45/1197] c_brfss_05 EN pretext Single agent + tools 47s
+14:35 [46/1197] c_brfss_05 EN pretext Multi-agent (ours) 18s
+14:35 [47/1197] c_brfss_06 EN override LLM direct 17s
+14:36 [48/1197] c_brfss_06 EN clean Single agent + tools 77s
+14:36 [49/1197] c_brfss_06 EN override Single agent + tools 68s
+14:36 [50/1197] c_brfss_06 EN pretext LLM direct 10s
+14:37 [51/1197] c_brfss_06 EN clean Multi-agent (ours) 118s
+14:37 [52/1197] c_brfss_06 EN override Multi-agent (ours) 100s
+14:37 [53/1197] c_brfss_07 EN clean LLM direct 42s
+14:37 [54/1197] c_brfss_06 EN pretext Multi-agent (ours) 80s
+14:38 [55/1197] c_brfss_07 EN override LLM direct 11s
+14:38 [56/1197] c_brfss_07 EN clean Single agent + tools 67s
+14:38 [57/1197] c_brfss_06 EN pretext Single agent + tools 133s
+14:38 [58/1197] c_brfss_07 EN pretext LLM direct 8s
+14:38 [59/1197] c_brfss_07 EN clean Multi-agent (ours) 57s
+14:38 [60/1197] c_brfss_07 EN override Multi-agent (ours) 36s
+14:39 [61/1197] c_brfss_09 EN clean LLM direct 11s
+14:39 [62/1197] c_brfss_07 EN pretext Multi-agent (ours) 42s
+14:39 [63/1197] c_brfss_07 EN override Single agent + tools 96s
+14:39 [64/1197] c_brfss_09 EN override LLM direct 6s
+14:39 [65/1197] c_brfss_09 EN clean Multi-agent (ours) 16s
+14:39 [66/1197] c_brfss_09 EN clean Single agent + tools 40s
+14:39 [67/1197] c_brfss_09 EN pretext LLM direct 6s
+14:39 [68/1197] c_brfss_07 EN pretext Single agent + tools 75s
+14:40 [69/1197] c_brfss_09 EN override Multi-agent (ours) 20s
+14:40 [70/1197] c_brfss_09 EN pretext Single agent + tools 18s
+14:40 [71/1197] c_brfss_09 EN pretext Multi-agent (ours) 13s
+14:40 [72/1197] c_brfss_09 EN override Single agent + tools 31s
+14:40 [73/1197] c_brfss_10 EN clean LLM direct 12s
+14:40 [74/1197] c_brfss_10 EN override LLM direct 8s
+14:40 [75/1197] c_brfss_10 EN clean Single agent + tools 31s
+14:40 [76/1197] c_brfss_10 EN pretext LLM direct 5s
+14:40 [77/1197] c_brfss_10 EN override Single agent + tools 28s
+14:40 [78/1197] c_brfss_10 EN clean Multi-agent (ours) 36s
+14:40 [79/1197] c_brfss_10 EN override Multi-agent (ours) 29s
+14:41 [80/1197] c_brfss_10 EN pretext Multi-agent (ours) 24s
+14:41 [81/1197] c_brfss_10 EN pretext Single agent + tools 33s
+14:41 [82/1197] c_brfss_11 EN clean LLM direct 34s
+14:41 [83/1197] c_brfss_11 EN override LLM direct 15s
+14:41 [84/1197] c_brfss_11 EN clean Multi-agent (ours) 27s
+14:41 [85/1197] c_brfss_11 EN pretext LLM direct 16s
+14:42 [86/1197] c_brfss_11 EN override Multi-agent (ours) 34s
+14:42 [87/1197] c_brfss_11 EN pretext Single agent + tools 55s
+14:42 [88/1197] c_brfss_11 EN clean Single agent + tools 120s
+14:43 [89/1197] c_brfss_11 EN override Single agent + tools 101s
+14:43 [90/1197] c_brfss_11 EN pretext Multi-agent (ours) 58s
+14:43 [91/1197] c_brfss_12 EN clean LLM direct 27s
+14:43 [92/1197] c_brfss_12 EN override LLM direct 19s
+14:44 [93/1197] c_brfss_12 EN clean Single agent + tools 92s
+14:44 [94/1197] c_brfss_12 EN override Single agent + tools 77s
+14:44 [95/1197] c_brfss_12 EN pretext LLM direct 21s
+14:44 [96/1197] c_brfss_12 EN clean Multi-agent (ours) 108s
+14:45 [97/1197] c_brfss_12 EN override Multi-agent (ours) 107s
+14:45 [98/1197] c_brfss_13 EN clean LLM direct 26s
+14:45 [99/1197] c_brfss_12 EN pretext Single agent + tools 64s
+14:45 [100/1197] c_brfss_13 EN clean Multi-agent (ours) 33s
+14:46 [101/1197] c_brfss_13 EN override LLM direct 18s
+14:46 [102/1197] c_brfss_13 EN clean Single agent + tools 66s
+14:46 [103/1197] c_brfss_12 EN pretext Multi-agent (ours) 101s
+14:46 [104/1197] c_brfss_13 EN pretext LLM direct 20s
+14:47 [105/1197] c_brfss_13 EN override Multi-agent (ours) 76s
+14:47 [106/1197] c_brfss_13 EN override Single agent + tools 87s
+14:47 [107/1197] c_brfss_13 EN pretext Single agent + tools 51s
+14:47 [108/1197] c_brfss_14 EN clean LLM direct 33s
+14:48 [109/1197] c_brfss_13 EN pretext Multi-agent (ours) 84s
+14:48 [110/1197] c_brfss_14 EN override LLM direct 18s
+14:48 [111/1197] c_brfss_14 EN clean Multi-agent (ours) 63s
+14:48 [112/1197] c_brfss_14 EN pretext LLM direct 8s
+14:48 [113/1197] c_brfss_14 EN override Multi-agent (ours) 35s
+14:48 [114/1197] c_brfss_14 EN clean Single agent + tools 92s
+14:49 [115/1197] c_brfss_15 EN clean LLM direct 21s
+14:49 [116/1197] c_brfss_14 EN pretext Multi-agent (ours) 45s
+14:49 [117/1197] c_brfss_15 EN clean Single agent + tools 21s
+14:49 [118/1197] c_brfss_15 EN override LLM direct 8s
+14:49 [119/1197] c_brfss_15 EN clean Multi-agent (ours) 21s
+14:49 [120/1197] c_brfss_14 EN pretext Single agent + tools 81s
+14:49 [121/1197] c_brfss_14 EN override Single agent + tools 105s
+14:50 [122/1197] c_brfss_15 EN pretext LLM direct 9s
+14:50 [123/1197] c_brfss_15 EN override Multi-agent (ours) 19s
+14:50 [124/1197] c_brfss_15 EN override Single agent + tools 29s
+14:50 [125/1197] c_brfss_15 EN pretext Multi-agent (ours) 14s
+14:50 [126/1197] c_brfss_15 EN pretext Single agent + tools 26s
+14:50 [127/1197] c_diabetes_01 EN clean LLM direct 19s
+14:50 [128/1197] c_diabetes_01 EN override LLM direct 18s
+14:51 [129/1197] c_diabetes_01 EN clean Single agent + tools 73s
+14:51 [130/1197] c_diabetes_01 EN pretext LLM direct 22s
+14:52 [131/1197] c_diabetes_01 EN override Single agent + tools 94s
+14:52 [132/1197] c_diabetes_01 EN clean Multi-agent (ours) 141s
+14:52 [133/1197] c_diabetes_01 EN override Multi-agent (ours) 126s
+14:53 [134/1197] c_diabetes_02 EN clean LLM direct 28s
+14:53 [135/1197] c_diabetes_01 EN pretext Single agent + tools 83s
+14:53 [136/1197] c_diabetes_02 EN override LLM direct 21s
+14:54 [137/1197] c_diabetes_02 EN clean Single agent + tools 90s
+14:54 [138/1197] c_diabetes_01 EN pretext Multi-agent (ours) 153s
+14:54 [139/1197] c_diabetes_02 EN clean Multi-agent (ours) 99s
+14:55 [140/1197] c_diabetes_02 EN pretext LLM direct 14s
+14:55 [141/1197] c_diabetes_02 EN override Single agent + tools 88s
+14:55 [142/1197] c_diabetes_03 EN clean LLM direct 32s
+14:56 [143/1197] c_diabetes_02 EN pretext Single agent + tools 112s
+14:57 [144/1197] c_diabetes_03 EN clean Single agent + tools 82s
+14:57 [145/1197] c_diabetes_02 EN pretext Multi-agent (ours) 128s
+14:57 [146/1197] c_diabetes_02 EN override Multi-agent (ours) 185s
+14:58 [147/1197] c_diabetes_03 EN override LLM direct 74s
+14:58 [148/1197] c_diabetes_03 EN pretext LLM direct 22s
+14:59 [149/1197] c_diabetes_03 EN override Single agent + tools 127s
+14:59 [150/1197] c_diabetes_03 EN clean Multi-agent (ours) 191s
+14:59 [151/1197] c_diabetes_03 EN override Multi-agent (ours) 151s
+15:00 [152/1197] c_diabetes_03 EN pretext Single agent + tools 82s
+15:00 [153/1197] c_diabetes_04 EN clean LLM direct 33s
+15:00 [154/1197] c_diabetes_04 EN override LLM direct 24s
+15:01 [155/1197] c_diabetes_04 EN clean Single agent + tools 85s
+15:02 [156/1197] c_diabetes_04 EN override Single agent + tools 103s
+15:02 [157/1197] c_diabetes_03 EN pretext Multi-agent (ours) 217s
+15:03 [158/1197] c_diabetes_04 EN pretext LLM direct 22s
+15:04 [159/1197] c_diabetes_04 EN clean Multi-agent (ours) 264s
+15:04 [160/1197] c_diabetes_04 EN pretext Single agent + tools 111s
+15:05 [161/1197] c_diabetes_05 EN clean LLM direct 30s
+15:05 [162/1197] c_diabetes_05 EN clean Multi-agent (ours) 14s
+15:05 [163/1197] c_diabetes_05 EN override LLM direct 6s
+15:05 [164/1197] c_diabetes_05 EN clean Single agent + tools 45s
+15:05 [165/1197] c_diabetes_04 EN override Multi-agent (ours) 254s
+15:05 [166/1197] c_diabetes_05 EN pretext LLM direct 6s
+15:05 [167/1197] c_diabetes_05 EN override Multi-agent (ours) 15s
+15:05 [168/1197] c_diabetes_05 EN override Single agent + tools 30s
+15:06 [169/1197] c_diabetes_04 EN pretext Multi-agent (ours) 186s
+15:06 [170/1197] c_diabetes_06 EN clean LLM direct 13s
+15:06 [171/1197] c_diabetes_05 EN pretext Multi-agent (ours) 22s
+15:06 [172/1197] c_diabetes_06 EN override LLM direct 10s
+15:06 [173/1197] c_diabetes_05 EN pretext Single agent + tools 37s
+15:07 [174/1197] c_diabetes_06 EN clean Single agent + tools 70s
+15:07 [175/1197] c_diabetes_06 EN override Single agent + tools 63s
+15:07 [176/1197] c_diabetes_06 EN pretext LLM direct 21s
+15:09 [177/1197] c_diabetes_06 EN pretext Single agent + tools 110s
+15:10 [178/1197] c_diabetes_07 EN clean LLM direct 51s
+15:10 [179/1197] c_diabetes_06 EN clean Multi-agent (ours) 254s
+15:10 [180/1197] c_diabetes_06 EN pretext Multi-agent (ours) 166s
+15:10 [181/1197] c_diabetes_06 EN override Multi-agent (ours) 245s
+15:10 [182/1197] c_diabetes_07 EN clean Multi-agent (ours) 22s
+15:10 [183/1197] c_diabetes_07 EN override LLM direct 24s
+15:11 [184/1197] c_diabetes_07 EN override Multi-agent (ours) 18s
+15:11 [185/1197] c_diabetes_07 EN pretext LLM direct 26s
+15:11 [186/1197] c_diabetes_07 EN clean Single agent + tools 87s
+15:11 [187/1197] c_diabetes_07 EN pretext Multi-agent (ours) 21s
+15:11 [188/1197] c_diabetes_08 EN clean LLM direct 21s
+15:12 [189/1197] c_diabetes_08 EN clean Multi-agent (ours) 21s
+15:12 [190/1197] c_diabetes_08 EN override LLM direct 6s
+15:12 [191/1197] c_diabetes_07 EN override Single agent + tools 126s
+15:12 [192/1197] c_diabetes_08 EN override Multi-agent (ours) 18s
+15:13 [193/1197] c_diabetes_07 EN pretext Single agent + tools 150s
+15:13 [194/1197] c_diabetes_08 EN pretext LLM direct 53s
+15:14 [195/1197] c_diabetes_08 EN pretext Multi-agent (ours) 18s
+15:14 [196/1197] c_diabetes_08 EN override Single agent + tools 106s
+15:14 [197/1197] c_diabetes_08 EN clean Single agent + tools 156s
+15:14 [198/1197] c_diabetes_09 EN clean LLM direct 16s
+15:14 [199/1197] c_diabetes_08 EN pretext Single agent + tools 52s
+15:14 [200/1197] c_diabetes_09 EN override LLM direct 10s
+15:15 [201/1197] c_diabetes_09 EN clean Single agent + tools 75s
+15:15 [202/1197] c_diabetes_09 EN pretext LLM direct 23s
+15:16 [203/1197] c_diabetes_09 EN override Single agent + tools 96s
+15:18 [204/1197] c_diabetes_09 EN clean Multi-agent (ours) 230s
+15:18 [205/1197] c_diabetes_10 EN clean LLM direct 32s
+15:19 [206/1197] c_diabetes_09 EN pretext Single agent + tools 198s
+15:19 [207/1197] c_diabetes_09 EN override Multi-agent (ours) 281s
+15:19 [208/1197] c_diabetes_10 EN override LLM direct 27s
+15:20 [209/1197] c_diabetes_10 EN clean Single agent + tools 93s
+15:20 [210/1197] c_diabetes_09 EN pretext Multi-agent (ours) 247s
+15:20 [211/1197] c_diabetes_10 EN pretext LLM direct 25s
+15:21 [212/1197] c_diabetes_10 EN override Single agent + tools 117s
+15:26 [213/1197] c_diabetes_10 EN pretext Single agent + tools 353s
+15:28 [214/1197] c_diabetes_11 EN clean LLM direct 107s
+15:29 [215/1197] c_diabetes_10 EN clean Multi-agent (ours) 627s
+15:32 [216/1197] c_diabetes_10 EN override Multi-agent (ours) 743s
+15:32 [217/1197] c_diabetes_11 EN clean Single agent + tools 266s
+15:32 [218/1197] c_diabetes_11 EN override LLM direct 21s
+15:33 [219/1197] c_diabetes_11 EN clean Multi-agent (ours) 205s
+15:33 [220/1197] c_diabetes_11 EN pretext LLM direct 10s
+15:34 [221/1197] c_diabetes_11 EN override Multi-agent (ours) 100s
+15:34 [222/1197] c_diabetes_11 EN override Single agent + tools 121s
+15:35 [223/1197] c_diabetes_10 EN pretext Multi-agent (ours) 830s
+15:35 [224/1197] c_diabetes_12 EN clean LLM direct 41s
+15:36 [225/1197] c_diabetes_12 EN clean Single agent + tools 27s
+15:36 [226/1197] c_diabetes_11 EN pretext Multi-agent (ours) 86s
+15:36 [227/1197] c_diabetes_12 EN override LLM direct 5s
+15:36 [228/1197] c_diabetes_11 EN pretext Single agent + tools 179s
+15:36 [229/1197] c_diabetes_12 EN pretext LLM direct 6s
+15:36 [230/1197] c_diabetes_12 EN clean Multi-agent (ours) 44s
+15:36 [231/1197] c_diabetes_12 EN override Multi-agent (ours) 16s
+15:36 [232/1197] c_diabetes_12 EN override Single agent + tools 22s
+15:36 [233/1197] c_diabetes_12 EN pretext Single agent + tools 33s
+15:36 [234/1197] c_diabetes_13 EN clean LLM direct 34s
+15:37 [235/1197] c_diabetes_12 EN pretext Multi-agent (ours) 55s
+15:37 [236/1197] c_diabetes_13 EN override LLM direct 26s
+15:38 [237/1197] c_diabetes_13 EN clean Single agent + tools 101s
+15:38 [238/1197] c_diabetes_13 EN pretext LLM direct 26s
+15:39 [239/1197] c_diabetes_13 EN override Single agent + tools 107s
+15:39 [240/1197] c_diabetes_13 EN clean Multi-agent (ours) 167s
+15:40 [241/1197] c_diabetes_13 EN pretext Single agent + tools 103s
+15:40 [242/1197] c_diabetes_14 EN clean LLM direct 45s
+15:41 [243/1197] c_diabetes_13 EN override Multi-agent (ours) 223s
+15:41 [244/1197] c_diabetes_14 EN override LLM direct 22s
+15:41 [245/1197] c_diabetes_14 EN clean Single agent + tools 91s
+15:43 [246/1197] c_diabetes_14 EN override Single agent + tools 132s
+15:44 [247/1197] c_diabetes_13 EN pretext Multi-agent (ours) 302s
+15:44 [248/1197] c_diabetes_14 EN pretext LLM direct 29s
+15:44 [249/1197] c_diabetes_14 EN clean Multi-agent (ours) 255s
+15:45 [250/1197] c_diabetes_15 EN clean LLM direct 43s
+15:45 [251/1197] c_diabetes_14 EN pretext Single agent + tools 83s
+15:46 [252/1197] c_diabetes_14 EN override Multi-agent (ours) 284s
+15:47 [253/1197] c_diabetes_15 EN clean Single agent + tools 88s
+15:47 [254/1197] c_diabetes_15 EN override LLM direct 26s
+15:48 [255/1197] c_diabetes_15 EN override Single agent + tools 66s
+15:48 [256/1197] c_diabetes_15 EN pretext LLM direct 33s
+15:48 [257/1197] c_diabetes_15 EN clean Multi-agent (ours) 194s
+15:49 [258/1197] c_diabetes_14 EN pretext Multi-agent (ours) 314s
+15:50 [259/1197] c_icu_01 EN clean LLM direct 34s
+15:50 [260/1197] c_diabetes_15 EN pretext Single agent + tools 107s
+15:50 [261/1197] c_diabetes_15 EN override Multi-agent (ours) 222s
+15:51 [262/1197] c_icu_01 EN override LLM direct 28s
+15:51 [263/1197] c_diabetes_15 EN pretext Multi-agent (ours) 180s
+15:52 [264/1197] c_icu_01 EN clean Single agent + tools 109s
+15:52 [265/1197] c_icu_01 EN pretext LLM direct 30s
+15:53 [266/1197] c_icu_01 EN override Single agent + tools 131s
+15:54 [267/1197] c_icu_01 EN clean Multi-agent (ours) 255s
+15:55 [268/1197] c_icu_01 EN pretext Single agent + tools 171s
+15:55 [269/1197] c_icu_02 EN clean LLM direct 62s
+15:56 [270/1197] c_icu_02 EN clean Single agent + tools 83s
+15:57 [271/1197] c_icu_02 EN override LLM direct 5s
+15:57 [272/1197] c_icu_01 EN override Multi-agent (ours) 349s
+15:57 [273/1197] c_icu_02 EN clean Multi-agent (ours) 113s
+15:57 [274/1197] c_icu_02 EN pretext LLM direct 8s
+15:58 [275/1197] c_icu_02 EN override Single agent + tools 81s
+15:58 [276/1197] c_icu_02 EN pretext Single agent + tools 44s
+15:59 [277/1197] c_icu_02 EN override Multi-agent (ours) 86s
+15:59 [278/1197] c_icu_03 EN clean LLM direct 42s
+15:59 [279/1197] c_icu_02 EN pretext Multi-agent (ours) 73s
+16:00 [280/1197] c_icu_03 EN override LLM direct 31s
+16:00 [281/1197] c_icu_01 EN pretext Multi-agent (ours) 399s
+16:01 [282/1197] c_icu_03 EN clean Single agent + tools 127s
+16:02 [283/1197] c_icu_03 EN pretext LLM direct 48s
+16:03 [284/1197] c_icu_03 EN override Single agent + tools 176s
+16:04 [285/1197] c_icu_03 EN pretext Single agent + tools 158s
+16:04 [286/1197] c_icu_03 EN clean Multi-agent (ours) 332s
+16:06 [287/1197] c_icu_04 EN clean LLM direct 87s
+16:07 [288/1197] c_icu_04 EN clean Single agent + tools 149s
+16:07 [289/1197] c_icu_04 EN override LLM direct 28s
+16:08 [290/1197] c_icu_03 EN pretext Multi-agent (ours) 301s
+16:08 [291/1197] c_icu_03 EN override Multi-agent (ours) 483s
+16:09 [292/1197] c_icu_04 EN override Single agent + tools 87s
+16:11 [293/1197] c_icu_04 EN pretext LLM direct 203s
+16:11 [294/1197] c_icu_04 EN override Multi-agent (ours) 212s
+16:11 [295/1197] c_icu_04 EN pretext Single agent + tools 148s
+16:15 [296/1197] c_icu_05 EN clean LLM direct 233s
+16:18 [297/1197] c_icu_05 EN clean Single agent + tools 399s
+16:19 [298/1197] c_icu_05 EN override LLM direct 69s
+16:22 [299/1197] c_icu_04 EN clean Multi-agent (ours) 958s
+16:23 [300/1197] c_icu_05 EN override Single agent + tools 253s
+16:26 [301/1197] c_icu_05 EN pretext LLM direct 124s
+16:29 [302/1197] c_icu_05 EN pretext Single agent + tools 192s
+16:35 [303/1197] c_icu_05 EN clean Multi-agent (ours) 1185s
+16:36 [304/1197] c_icu_04 EN pretext Multi-agent (ours) 1483s
+16:36 [305/1197] c_icu_06 EN clean LLM direct 89s
+16:37 [306/1197] c_icu_06 EN clean Single agent + tools 54s
+16:37 [307/1197] c_icu_06 EN override LLM direct 7s
+16:37 [308/1197] c_icu_05 EN override Multi-agent (ours) 926s
+16:38 [309/1197] c_icu_06 EN override Single agent + tools 37s
+16:38 [310/1197] c_icu_06 EN pretext LLM direct 6s
+16:38 [311/1197] c_icu_05 EN pretext Multi-agent (ours) 543s
+16:39 [312/1197] c_icu_06 EN clean Multi-agent (ours) 164s
+16:40 [313/1197] c_icu_06 EN override Multi-agent (ours) 162s
+16:40 [314/1197] c_icu_06 EN pretext Single agent + tools 136s
+16:40 [315/1197] c_icu_06 EN pretext Multi-agent (ours) 136s
+16:40 [316/1197] c_icu_07 EN clean LLM direct 66s
+16:41 [317/1197] c_icu_07 EN override LLM direct 55s
+16:44 [318/1197] c_icu_07 EN override Single agent + tools 216s
+16:44 [319/1197] c_icu_07 EN clean Single agent + tools 239s
+16:45 [320/1197] c_icu_07 EN pretext LLM direct 52s
+16:46 [321/1197] c_icu_07 EN pretext Single agent + tools 122s
+16:48 [322/1197] c_icu_08 EN clean LLM direct 93s
+16:51 [323/1197] c_icu_07 EN override Multi-agent (ours) 593s
+16:53 [324/1197] c_icu_08 EN clean Single agent + tools 304s
+16:53 [325/1197] c_icu_07 EN clean Multi-agent (ours) 769s
+16:53 [326/1197] c_icu_07 EN pretext Multi-agent (ours) 499s
+16:54 [327/1197] c_icu_08 EN override LLM direct 92s
+16:56 [328/1197] c_icu_08 EN pretext LLM direct 96s
+16:59 [329/1197] c_icu_08 EN override Single agent + tools 351s
+17:04 [330/1197] c_icu_08 EN clean Multi-agent (ours) 758s
+17:05 [331/1197] c_icu_08 EN override Multi-agent (ours) 687s
+17:05 [332/1197] c_icu_08 EN pretext Single agent + tools 528s
+17:06 [333/1197] c_icu_09 EN clean LLM direct 111s
+17:07 [334/1197] c_icu_09 EN override LLM direct 74s
+17:09 [335/1197] c_icu_09 EN clean Single agent + tools 245s
+17:11 [336/1197] c_icu_09 EN override Single agent + tools 247s
+17:12 [337/1197] c_icu_09 EN pretext LLM direct 76s
+17:17 [338/1197] c_icu_09 EN pretext Single agent + tools 276s
+17:17 [339/1197] c_icu_08 EN pretext Multi-agent (ours) 1090s
+17:19 [340/1197] c_icu_10 EN clean LLM direct 138s
+17:20 [341/1197] c_icu_09 EN clean Multi-agent (ours) 935s
+17:21 [342/1197] c_icu_10 EN clean Single agent + tools 71s
+17:21 [343/1197] c_icu_10 EN override LLM direct 7s
+17:21 [344/1197] c_icu_10 EN clean Multi-agent (ours) 59s
+17:21 [345/1197] c_icu_10 EN override Single agent + tools 43s
+17:22 [346/1197] c_icu_10 EN pretext LLM direct 11s
+17:22 [347/1197] c_icu_09 EN override Multi-agent (ours) 783s
+17:23 [348/1197] c_icu_10 EN pretext Single agent + tools 49s
+17:23 [349/1197] c_icu_10 EN pretext Multi-agent (ours) 53s
+17:23 [350/1197] c_icu_10 EN override Multi-agent (ours) 86s
+17:23 [351/1197] c_icu_11 EN clean LLM direct 50s
+17:24 [352/1197] c_icu_11 EN override LLM direct 29s
+17:25 [353/1197] c_icu_09 EN pretext Multi-agent (ours) 464s
+17:25 [354/1197] c_icu_11 EN clean Single agent + tools 126s
+17:25 [355/1197] c_icu_11 EN pretext LLM direct 27s
+17:26 [356/1197] c_icu_11 EN override Single agent + tools 135s
+17:27 [357/1197] c_icu_11 EN override Multi-agent (ours) 118s
+17:27 [358/1197] c_icu_11 EN pretext Single agent + tools 116s
+17:27 [359/1197] c_icu_12 EN clean LLM direct 46s
+17:28 [360/1197] c_icu_11 EN clean Multi-agent (ours) 288s
+17:28 [361/1197] c_icu_12 EN override LLM direct 29s
+17:29 [362/1197] c_icu_12 EN clean Single agent + tools 123s
+17:30 [363/1197] c_icu_12 EN override Single agent + tools 113s
+17:31 [364/1197] c_icu_12 EN pretext LLM direct 38s
+retry single APIConnectionError
+retry single APIConnectionError
+18:35 [365/1197] c_icu_11 EN pretext Multi-agent (ours) 4134s
+18:35 [366/1197] c_icu_12 EN override Multi-agent (ours) 3947s
+18:35 [367/1197] c_icu_12 EN clean Multi-agent (ours) 4064s
+18:36 [368/1197] c_icu_13 EN clean LLM direct 24s
+18:36 [369/1197] c_icu_12 EN pretext Single agent + tools 3913s
+18:36 [370/1197] c_icu_12 EN pretext Multi-agent (ours) 56s
+18:36 [371/1197] c_icu_13 EN override LLM direct 24s
+18:36 [372/1197] c_icu_13 EN clean Single agent + tools 75s
+18:37 [373/1197] c_icu_13 EN pretext LLM direct 34s
+18:38 [374/1197] c_icu_13 EN override Single agent + tools 111s
+18:38 [375/1197] c_icu_13 EN clean Multi-agent (ours) 148s
+18:38 [376/1197] c_icu_14 EN clean LLM direct 23s
+18:39 [377/1197] c_icu_13 EN override Multi-agent (ours) 146s
+18:40 [378/1197] c_icu_13 EN pretext Single agent + tools 146s
+18:40 [379/1197] c_icu_14 EN clean Single agent + tools 80s
+18:40 [380/1197] c_icu_14 EN override LLM direct 27s
+18:40 [381/1197] c_icu_14 EN clean Multi-agent (ours) 75s
+18:40 [382/1197] c_icu_13 EN pretext Multi-agent (ours) 146s
+18:40 [383/1197] c_icu_14 EN pretext LLM direct 16s
+18:41 [384/1197] c_icu_14 EN override Multi-agent (ours) 34s
+18:41 [385/1197] c_insurance_01 EN clean LLM direct 12s
+18:41 [386/1197] c_icu_14 EN pretext Multi-agent (ours) 26s
+18:41 [387/1197] c_icu_14 EN override Single agent + tools 68s
+18:41 [388/1197] c_insurance_01 EN override LLM direct 12s
+18:41 [389/1197] c_icu_14 EN pretext Single agent + tools 55s
+18:41 [390/1197] c_insurance_01 EN clean Multi-agent (ours) 36s
+18:42 [391/1197] c_insurance_01 EN pretext LLM direct 6s
+18:42 [392/1197] c_insurance_01 EN override Multi-agent (ours) 20s
+18:42 [393/1197] c_insurance_01 EN pretext Multi-agent (ours) 24s
+18:42 [394/1197] c_insurance_01 EN clean Single agent + tools 76s
+18:42 [395/1197] c_insurance_02 EN clean LLM direct 9s
+18:42 [396/1197] c_insurance_01 EN override Single agent + tools 64s
+18:42 [397/1197] c_insurance_02 EN override LLM direct 6s
+18:43 [398/1197] c_insurance_02 EN clean Multi-agent (ours) 23s
+18:43 [399/1197] c_insurance_01 EN pretext Single agent + tools 60s
+18:43 [400/1197] c_insurance_02 EN pretext LLM direct 5s
+18:43 [401/1197] c_insurance_02 EN override Multi-agent (ours) 13s
+18:43 [402/1197] c_insurance_02 EN pretext Multi-agent (ours) 12s
+18:43 [403/1197] c_stroke_01 EN clean LLM direct 16s
+18:43 [404/1197] c_insurance_02 EN pretext Single agent + tools 38s
+18:44 [405/1197] c_insurance_02 EN override Single agent + tools 75s
+18:44 [406/1197] c_insurance_02 EN clean Single agent + tools 96s
+18:44 [407/1197] c_stroke_01 EN clean Multi-agent (ours) 22s
+18:44 [408/1197] c_stroke_01 EN override LLM direct 12s
+18:44 [409/1197] c_stroke_01 EN override Multi-agent (ours) 12s
+18:44 [410/1197] c_stroke_01 EN pretext LLM direct 8s
+18:44 [411/1197] c_stroke_01 EN clean Single agent + tools 65s
+18:45 [412/1197] c_stroke_01 EN pretext Multi-agent (ours) 31s
+18:45 [413/1197] c_stroke_02 EN clean LLM direct 25s
+18:45 [414/1197] c_stroke_01 EN pretext Single agent + tools 63s
+18:45 [415/1197] c_stroke_02 EN clean Multi-agent (ours) 20s
+18:45 [416/1197] c_stroke_02 EN override LLM direct 13s
+18:45 [417/1197] c_stroke_01 EN override Single agent + tools 97s
+18:46 [418/1197] c_stroke_02 EN pretext LLM direct 11s
+18:46 [419/1197] c_stroke_02 EN clean Single agent + tools 59s
+18:46 [420/1197] c_stroke_02 EN override Multi-agent (ours) 19s
+18:46 [421/1197] c_stroke_02 EN pretext Multi-agent (ours) 15s
+18:46 [422/1197] c_stroke_03 EN clean LLM direct 16s
+18:46 [423/1197] c_stroke_03 EN clean Multi-agent (ours) 20s
+18:46 [424/1197] c_stroke_03 EN override LLM direct 11s
+18:46 [425/1197] c_stroke_02 EN override Single agent + tools 69s
+18:46 [426/1197] c_stroke_02 EN pretext Single agent + tools 54s
+18:47 [427/1197] c_stroke_03 EN pretext LLM direct 16s
+18:47 [428/1197] c_stroke_03 EN override Multi-agent (ours) 21s
+18:47 [429/1197] c_stroke_03 EN clean Single agent + tools 64s
+18:47 [430/1197] c_stroke_03 EN pretext Multi-agent (ours) 10s
+18:48 [431/1197] c_stroke_04 EN clean LLM direct 42s
+18:48 [432/1197] c_stroke_03 EN override Single agent + tools 117s
+18:49 [433/1197] c_stroke_03 EN pretext Single agent + tools 112s
+18:49 [434/1197] c_stroke_04 EN clean Multi-agent (ours) 63s
+18:49 [435/1197] c_stroke_04 EN override LLM direct 19s
+18:49 [436/1197] c_stroke_04 EN clean Single agent + tools 108s
+18:49 [437/1197] c_stroke_04 EN pretext LLM direct 10s
+18:49 [438/1197] c_stroke_04 EN override Multi-agent (ours) 18s
+18:49 [439/1197] c_stroke_04 EN pretext Multi-agent (ours) 21s
+18:50 [440/1197] c_synthea_01 EN clean LLM direct 38s
+18:51 [441/1197] c_stroke_04 EN pretext Single agent + tools 111s
+18:51 [442/1197] c_synthea_01 EN override LLM direct 9s
+18:51 [443/1197] c_synthea_01 EN clean Single agent + tools 110s
+18:51 [444/1197] c_stroke_04 EN override Single agent + tools 158s
+18:52 [445/1197] c_synthea_01 EN pretext LLM direct 28s
+18:52 [446/1197] c_synthea_01 EN override Single agent + tools 88s
+18:53 [447/1197] c_synthea_01 EN clean Multi-agent (ours) 177s
+18:53 [448/1197] c_synthea_01 EN override Multi-agent (ours) 93s
+18:53 [449/1197] c_synthea_01 EN pretext Single agent + tools 74s
+18:53 [450/1197] c_synthea_02 EN clean LLM direct 26s
+18:53 [451/1197] c_synthea_02 EN override LLM direct 9s
+18:54 [452/1197] c_synthea_02 EN clean Multi-agent (ours) 37s
+18:54 [453/1197] c_synthea_01 EN pretext Multi-agent (ours) 84s
+18:54 [454/1197] c_synthea_02 EN clean Single agent + tools 63s
+18:54 [455/1197] c_synthea_02 EN pretext LLM direct 6s
+18:54 [456/1197] c_synthea_02 EN override Multi-agent (ours) 14s
+18:54 [457/1197] c_synthea_02 EN override Single agent + tools 41s
+18:54 [458/1197] c_synthea_03 EN clean LLM direct 24s
+18:55 [459/1197] c_synthea_02 EN pretext Multi-agent (ours) 48s
+18:55 [460/1197] c_synthea_02 EN pretext Single agent + tools 62s
+18:55 [461/1197] c_synthea_03 EN clean Single agent + tools 49s
+18:55 [462/1197] c_synthea_03 EN override LLM direct 17s
+18:55 [463/1197] c_synthea_03 EN clean Multi-agent (ours) 55s
+18:55 [464/1197] c_synthea_03 EN pretext LLM direct 34s
+18:56 [465/1197] c_synthea_03 EN override Multi-agent (ours) 62s
+18:56 [466/1197] c_synthea_04 EN clean LLM direct 16s
+18:57 [467/1197] c_synthea_03 EN pretext Multi-agent (ours) 84s
+18:57 [468/1197] c_synthea_03 EN pretext Single agent + tools 110s
+18:57 [469/1197] c_synthea_04 EN clean Single agent + tools 66s
+18:57 [470/1197] c_synthea_04 EN override LLM direct 9s
+18:57 [471/1197] c_synthea_03 EN override Single agent + tools 158s
+18:58 [472/1197] c_synthea_04 EN pretext LLM direct 14s
+18:58 [473/1197] c_synthea_04 EN clean Multi-agent (ours) 49s
+18:58 [474/1197] c_synthea_04 EN override Multi-agent (ours) 41s
+18:58 [475/1197] c_synthea_05 EN clean LLM direct 17s
+18:58 [476/1197] c_synthea_04 EN override Single agent + tools 64s
+18:58 [477/1197] c_synthea_04 EN pretext Multi-agent (ours) 43s
+18:59 [478/1197] c_synthea_05 EN override LLM direct 10s
+18:59 [479/1197] c_synthea_04 EN pretext Single agent + tools 82s
+19:00 [480/1197] c_synthea_05 EN clean Multi-agent (ours) 76s
+19:00 [481/1197] c_synthea_05 EN pretext LLM direct 12s
+19:00 [482/1197] c_synthea_05 EN clean Single agent + tools 95s
+19:00 [483/1197] c_synthea_05 EN override Single agent + tools 69s
+19:00 [484/1197] c_synthea_06 EN clean LLM direct 18s
+19:00 [485/1197] c_synthea_05 EN override Multi-agent (ours) 70s
+19:01 [486/1197] c_synthea_05 EN pretext Multi-agent (ours) 54s
+19:01 [487/1197] c_synthea_06 EN clean Multi-agent (ours) 34s
+19:01 [488/1197] c_synthea_06 EN override LLM direct 14s
+19:01 [489/1197] c_synthea_06 EN clean Single agent + tools 65s
+19:01 [490/1197] c_synthea_06 EN pretext LLM direct 12s
+19:01 [491/1197] c_synthea_05 EN pretext Single agent + tools 104s
+19:02 [492/1197] c_synthea_06 EN override Single agent + tools 90s
+19:02 [493/1197] c_synthea_06 EN pretext Multi-agent (ours) 48s
+19:03 [494/1197] c_synthea_06 EN override Multi-agent (ours) 110s
+19:03 [495/1197] c_synthea_07 EN clean LLM direct 33s
+19:03 [496/1197] c_synthea_07 EN override LLM direct 18s
+19:04 [497/1197] c_synthea_06 EN pretext Single agent + tools 131s
+19:04 [498/1197] c_synthea_07 EN clean Multi-agent (ours) 59s
+19:04 [499/1197] c_synthea_07 EN clean Single agent + tools 98s
+19:04 [500/1197] c_synthea_07 EN pretext LLM direct 16s
+19:04 [501/1197] c_synthea_07 EN override Single agent + tools 67s
+19:04 [502/1197] c_synthea_08 EN clean LLM direct 10s
+19:04 [503/1197] c_synthea_07 EN override Multi-agent (ours) 54s
+19:05 [504/1197] c_synthea_08 EN clean Multi-agent (ours) 27s
+19:05 [505/1197] c_synthea_08 EN clean Single agent + tools 34s
+19:05 [506/1197] c_synthea_08 EN override LLM direct 5s
+19:05 [507/1197] c_synthea_08 EN override Multi-agent (ours) 15s
+19:06 [508/1197] c_synthea_08 EN pretext LLM direct 29s
+19:06 [509/1197] c_synthea_08 EN override Single agent + tools 55s
+19:06 [510/1197] c_synthea_07 EN pretext Multi-agent (ours) 128s
+19:06 [511/1197] c_brfss_01 TH-text clean LLM direct 14s
+19:07 [512/1197] c_synthea_08 EN pretext Multi-agent (ours) 34s
+19:07 [513/1197] c_brfss_01 TH-text clean Single agent + tools 48s
+19:07 [514/1197] c_synthea_08 EN pretext Single agent + tools 97s
+19:07 [515/1197] c_brfss_01 TH-text clean Multi-agent (ours) 52s
+19:07 [516/1197] c_brfss_01 TH-text override LLM direct 12s
+19:08 [517/1197] c_brfss_01 TH-text pretext LLM direct 11s
+19:08 [518/1197] c_brfss_01 TH-text override Multi-agent (ours) 36s
+19:08 [519/1197] c_brfss_01 TH-text pretext Single agent + tools 40s
+19:08 [520/1197] c_brfss_01 TH-text pretext Multi-agent (ours) 24s
+19:08 [521/1197] c_brfss_02 TH-text clean LLM direct 10s
+19:09 [522/1197] c_brfss_01 TH-text override Single agent + tools 71s
+19:09 [523/1197] c_brfss_02 TH-text clean Multi-agent (ours) 16s
+19:09 [524/1197] c_brfss_02 TH-text override LLM direct 9s
+19:09 [525/1197] c_brfss_02 TH-text clean Single agent + tools 30s
+19:09 [526/1197] c_brfss_02 TH-text pretext LLM direct 8s
+19:09 [527/1197] c_brfss_02 TH-text override Multi-agent (ours) 23s
+19:10 [528/1197] c_brfss_02 TH-text override Single agent + tools 56s
+21:47 [529/1197] c_brfss_02 TH-text pretext Multi-agent (ours) 9452s
+21:47 [530/1197] c_brfss_02 TH-text pretext Single agent + tools 9461s
+21:47 [531/1197] c_brfss_03 TH-text clean LLM direct 28s
+21:47 [532/1197] c_synthea_07 EN pretext Single agent + tools 9785s
+21:47 [533/1197] c_brfss_03 TH-text override LLM direct 8s
+21:47 [534/1197] c_brfss_03 TH-text override Multi-agent (ours) 11s
+21:47 [535/1197] c_brfss_03 TH-text pretext LLM direct 8s
+empty reply, retry single
+21:48 [536/1197] c_brfss_03 TH-text clean Multi-agent (ours) 70s
+21:48 [537/1197] c_brfss_03 TH-text clean Single agent + tools 83s
+21:48 [538/1197] c_brfss_04 TH-text clean LLM direct 11s
+21:48 [539/1197] c_brfss_03 TH-text pretext Multi-agent (ours) 19s
+21:49 [540/1197] c_brfss_04 TH-text clean Multi-agent (ours) 37s
+21:49 [541/1197] c_brfss_04 TH-text override LLM direct 17s
+21:50 [542/1197] c_brfss_03 TH-text pretext Single agent + tools 129s
+empty reply, retry auditor
+21:50 [543/1197] c_brfss_04 TH-text override Multi-agent (ours) 21s
+21:50 [544/1197] c_brfss_04 TH-text pretext LLM direct 10s
+21:50 [545/1197] c_brfss_03 TH-text override Single agent + tools 195s
+21:51 [546/1197] c_brfss_04 TH-text pretext Multi-agent (ours) 17s
+21:51 [547/1197] c_brfss_04 TH-text override Single agent + tools 83s
+21:51 [548/1197] c_brfss_05 TH-text clean LLM direct 9s
+21:51 [549/1197] c_brfss_04 TH-text pretext Single agent + tools 48s
+21:51 [550/1197] c_brfss_04 TH-text clean Single agent + tools 160s
+21:51 [551/1197] c_brfss_05 TH-text override LLM direct 7s
+21:51 [552/1197] c_brfss_05 TH-text clean Single agent + tools 26s
+21:51 [553/1197] c_brfss_05 TH-text clean Multi-agent (ours) 26s
+21:51 [554/1197] c_brfss_05 TH-text pretext LLM direct 9s
+21:51 [555/1197] c_brfss_05 TH-text override Multi-agent (ours) 12s
+21:51 [556/1197] c_brfss_06 TH-text clean LLM direct 6s
+empty reply, retry auditor
+empty reply, retry auditor
+21:52 [557/1197] c_brfss_05 TH-text pretext Multi-agent (ours) 35s
+21:52 [558/1197] c_brfss_06 TH-text clean Multi-agent (ours) 15s
+21:52 [559/1197] c_brfss_06 TH-text override LLM direct 7s
+21:52 [560/1197] c_brfss_05 TH-text pretext Single agent + tools 77s
+21:53 [561/1197] c_brfss_06 TH-text override Multi-agent (ours) 17s
+21:53 [562/1197] c_brfss_06 TH-text clean Single agent + tools 90s
+21:53 [563/1197] c_brfss_06 TH-text pretext LLM direct 11s
+empty reply, retry auditor
+21:53 [564/1197] c_brfss_06 TH-text override Single agent + tools 66s
+empty reply, retry auditor
+21:54 [565/1197] c_brfss_05 TH-text override Single agent + tools 154s
+empty reply, retry auditor
+21:54 [566/1197] c_brfss_07 TH-text clean LLM direct 30s
+21:54 [567/1197] c_brfss_06 TH-text pretext Multi-agent (ours) 60s
+21:54 [568/1197] c_brfss_07 TH-text clean Multi-agent (ours) 23s
+21:54 [569/1197] c_brfss_07 TH-text override LLM direct 26s
+21:55 [570/1197] c_brfss_06 TH-text pretext Single agent + tools 102s
+21:55 [571/1197] c_brfss_07 TH-text clean Single agent + tools 64s
+21:55 [572/1197] c_brfss_07 TH-text override Multi-agent (ours) 15s
+21:55 [573/1197] c_brfss_07 TH-text pretext Multi-agent (ours) 11s
+21:55 [574/1197] c_brfss_09 TH-text clean LLM direct 6s
+21:55 [575/1197] c_brfss_07 TH-text pretext LLM direct 30s
+21:55 [576/1197] c_brfss_09 TH-text clean Single agent + tools 13s
+21:55 [577/1197] c_brfss_09 TH-text override LLM direct 8s
+21:55 [578/1197] c_brfss_09 TH-text clean Multi-agent (ours) 21s
+21:56 [579/1197] c_brfss_09 TH-text override Multi-agent (ours) 15s
+21:56 [580/1197] c_brfss_09 TH-text override Single agent + tools 22s
+21:56 [581/1197] c_brfss_09 TH-text pretext LLM direct 5s
+21:56 [582/1197] c_brfss_09 TH-text pretext Single agent + tools 21s
+21:56 [583/1197] c_brfss_09 TH-text pretext Multi-agent (ours) 20s
+21:56 [584/1197] c_brfss_10 TH-text clean LLM direct 6s
+21:56 [585/1197] c_brfss_10 TH-text clean Single agent + tools 24s
+21:57 [586/1197] c_brfss_07 TH-text pretext Single agent + tools 118s
+21:57 [587/1197] c_brfss_10 TH-text override LLM direct 11s
+21:57 [588/1197] c_brfss_07 TH-text override Single agent + tools 170s
+21:57 [589/1197] c_brfss_10 TH-text override Multi-agent (ours) 20s
+21:57 [590/1197] c_brfss_10 TH-text pretext LLM direct 7s
+21:57 [591/1197] c_brfss_10 TH-text pretext Multi-agent (ours) 19s
+21:58 [592/1197] c_brfss_10 TH-text pretext Single agent + tools 36s
+21:58 [593/1197] c_brfss_10 TH-text override Single agent + tools 70s
+21:58 [594/1197] c_brfss_11 TH-text clean LLM direct 17s
+21:58 [595/1197] c_brfss_10 TH-text clean Multi-agent (ours) 104s
+21:58 [596/1197] c_brfss_11 TH-text override LLM direct 16s
+empty reply, retry auditor
+21:59 [597/1197] c_brfss_11 TH-text override Multi-agent (ours) 29s
+21:59 [598/1197] c_brfss_11 TH-text clean Multi-agent (ours) 50s
+21:59 [599/1197] c_brfss_11 TH-text pretext LLM direct 8s
+21:59 [600/1197] c_brfss_11 TH-text clean Single agent + tools 76s
+21:59 [601/1197] c_brfss_12 TH-text clean LLM direct 14s
+empty reply, retry auditor
+empty reply, retry auditor
+empty reply, retry auditor
+22:00 [602/1197] c_brfss_11 TH-text pretext Multi-agent (ours) 63s
+22:00 [603/1197] c_brfss_12 TH-text clean Single agent + tools 52s
+22:00 [604/1197] c_brfss_12 TH-text override LLM direct 16s
+22:01 [605/1197] c_brfss_12 TH-text clean Multi-agent (ours) 56s
+22:01 [606/1197] c_brfss_11 TH-text pretext Single agent + tools 130s
+22:01 [607/1197] c_brfss_12 TH-text pretext LLM direct 13s
+empty reply, retry auditor
+22:01 [608/1197] c_brfss_12 TH-text override Multi-agent (ours) 25s
+22:01 [609/1197] c_brfss_11 TH-text override Single agent + tools 205s
+22:02 [610/1197] c_brfss_13 TH-text clean LLM direct 12s
+22:02 [611/1197] c_brfss_12 TH-text pretext Multi-agent (ours) 28s
+22:02 [612/1197] c_brfss_12 TH-text pretext Single agent + tools 70s
+22:02 [613/1197] c_brfss_13 TH-text clean Multi-agent (ours) 48s
+22:03 [614/1197] c_brfss_13 TH-text override LLM direct 23s
+22:03 [615/1197] c_brfss_13 TH-text clean Single agent + tools 66s
+22:03 [616/1197] c_brfss_12 TH-text override Single agent + tools 145s
+22:03 [617/1197] c_brfss_13 TH-text override Multi-agent (ours) 17s
+22:03 [618/1197] c_brfss_13 TH-text pretext LLM direct 13s
+empty reply, retry auditor
+22:03 [619/1197] c_brfss_14 TH-text clean LLM direct 21s
+22:04 [620/1197] c_brfss_13 TH-text pretext Single agent + tools 74s
+22:04 [621/1197] c_brfss_14 TH-text clean Multi-agent (ours) 19s
+22:04 [622/1197] c_brfss_13 TH-text override Single agent + tools 118s
+22:04 [623/1197] c_brfss_14 TH-text override LLM direct 12s
+22:05 [624/1197] c_brfss_13 TH-text pretext Multi-agent (ours) 120s
+empty reply, retry auditor
+22:05 [625/1197] c_brfss_14 TH-text pretext LLM direct 11s
+22:05 [626/1197] c_brfss_14 TH-text override Multi-agent (ours) 42s
+22:06 [627/1197] c_brfss_14 TH-text pretext Multi-agent (ours) 26s
+22:06 [628/1197] c_brfss_15 TH-text clean LLM direct 8s
+22:06 [629/1197] c_brfss_14 TH-text override Single agent + tools 104s
+22:06 [630/1197] c_brfss_14 TH-text pretext Single agent + tools 68s
+22:06 [631/1197] c_brfss_15 TH-text clean Single agent + tools 36s
+22:06 [632/1197] c_brfss_15 TH-text override LLM direct 15s
+22:07 [633/1197] c_brfss_14 TH-text clean Single agent + tools 194s
+22:07 [634/1197] c_brfss_15 TH-text clean Multi-agent (ours) 23s
+22:07 [635/1197] c_brfss_15 TH-text pretext LLM direct 8s
+empty reply, retry auditor
+22:07 [636/1197] c_brfss_15 TH-text override Multi-agent (ours) 18s
+22:07 [637/1197] c_brfss_15 TH-text pretext Multi-agent (ours) 14s
+22:07 [638/1197] c_diabetes_01 TH-text clean LLM direct 12s
+22:07 [639/1197] c_brfss_15 TH-text pretext Single agent + tools 28s
+22:07 [640/1197] c_brfss_15 TH-text override Single agent + tools 46s
+22:07 [641/1197] c_diabetes_01 TH-text override LLM direct 11s
+22:08 [642/1197] c_diabetes_01 TH-text clean Single agent + tools 77s
+22:09 [643/1197] c_diabetes_01 TH-text pretext LLM direct 26s
+22:09 [644/1197] c_diabetes_01 TH-text clean Multi-agent (ours) 140s
+22:10 [645/1197] c_diabetes_01 TH-text override Multi-agent (ours) 148s
+22:10 [646/1197] c_diabetes_02 TH-text clean LLM direct 15s
+22:10 [647/1197] c_diabetes_01 TH-text override Single agent + tools 185s
+22:11 [648/1197] c_diabetes_01 TH-text pretext Single agent + tools 115s
+22:11 [649/1197] c_diabetes_02 TH-text override LLM direct 10s
+22:11 [650/1197] c_diabetes_02 TH-text clean Single agent + tools 54s
+22:11 [651/1197] c_diabetes_01 TH-text pretext Multi-agent (ours) 106s
+22:11 [652/1197] c_diabetes_02 TH-text clean Multi-agent (ours) 56s
+22:12 [653/1197] c_diabetes_02 TH-text pretext LLM direct 32s
+22:13 [654/1197] c_diabetes_02 TH-text override Single agent + tools 119s
+22:13 [655/1197] c_diabetes_02 TH-text pretext Single agent + tools 104s
+22:13 [656/1197] c_diabetes_03 TH-text clean LLM direct 32s
+22:14 [657/1197] c_diabetes_02 TH-text pretext Multi-agent (ours) 119s
+22:14 [658/1197] c_diabetes_03 TH-text override LLM direct 27s
+empty reply, retry auditor
+22:15 [659/1197] c_diabetes_02 TH-text override Multi-agent (ours) 277s
+22:16 [660/1197] c_diabetes_03 TH-text clean Single agent + tools 178s
+22:17 [661/1197] c_diabetes_03 TH-text pretext LLM direct 36s
+22:17 [662/1197] c_diabetes_03 TH-text override Single agent + tools 147s
+22:18 [663/1197] c_diabetes_03 TH-text clean Multi-agent (ours) 298s
+22:19 [664/1197] c_diabetes_03 TH-text pretext Single agent + tools 116s
+22:19 [665/1197] c_diabetes_04 TH-text clean LLM direct 26s
+22:20 [666/1197] c_diabetes_04 TH-text clean Single agent + tools 111s
+22:21 [667/1197] c_diabetes_03 TH-text override Multi-agent (ours) 318s
+22:21 [668/1197] c_diabetes_04 TH-text override LLM direct 27s
+22:21 [669/1197] c_diabetes_03 TH-text pretext Multi-agent (ours) 281s
+22:22 [670/1197] c_diabetes_04 TH-text pretext LLM direct 27s
+22:22 [671/1197] c_diabetes_04 TH-text override Single agent + tools 95s
+22:23 [672/1197] c_diabetes_04 TH-text pretext Multi-agent (ours) 20s
+22:23 [673/1197] c_diabetes_05 TH-text clean LLM direct 6s
+22:23 [674/1197] c_diabetes_04 TH-text clean Multi-agent (ours) 262s
+22:23 [675/1197] c_diabetes_05 TH-text clean Single agent + tools 21s
+22:23 [676/1197] c_diabetes_04 TH-text pretext Single agent + tools 90s
+22:23 [677/1197] c_diabetes_05 TH-text clean Multi-agent (ours) 16s
+22:23 [678/1197] c_diabetes_05 TH-text override LLM direct 12s
+22:24 [679/1197] c_diabetes_04 TH-text override Multi-agent (ours) 163s
+22:24 [680/1197] c_diabetes_05 TH-text pretext LLM direct 9s
+22:24 [681/1197] c_diabetes_05 TH-text override Multi-agent (ours) 17s
+22:24 [682/1197] c_diabetes_06 TH-text clean LLM direct 13s
+22:24 [683/1197] c_diabetes_05 TH-text pretext Multi-agent (ours) 33s
+22:25 [684/1197] c_diabetes_06 TH-text clean Single agent + tools 56s
+22:25 [685/1197] c_diabetes_06 TH-text override LLM direct 19s
+22:25 [686/1197] c_diabetes_05 TH-text pretext Single agent + tools 98s
+22:26 [687/1197] c_diabetes_05 TH-text override Single agent + tools 148s
+22:26 [688/1197] c_diabetes_06 TH-text clean Multi-agent (ours) 105s
+22:27 [689/1197] c_diabetes_06 TH-text pretext LLM direct 48s
+22:27 [690/1197] c_diabetes_06 TH-text override Single agent + tools 95s
+22:27 [691/1197] c_diabetes_07 TH-text clean LLM direct 32s
+22:28 [692/1197] c_diabetes_06 TH-text pretext Single agent + tools 105s
+22:28 [693/1197] c_diabetes_07 TH-text clean Multi-agent (ours) 15s
+22:28 [694/1197] c_diabetes_07 TH-text override LLM direct 9s
+22:28 [695/1197] c_diabetes_06 TH-text override Multi-agent (ours) 177s
+22:29 [696/1197] c_diabetes_07 TH-text override Multi-agent (ours) 25s
+empty reply, retry auditor
+22:29 [697/1197] c_diabetes_07 TH-text clean Single agent + tools 126s
+empty reply, retry auditor
+22:30 [698/1197] c_diabetes_06 TH-text pretext Multi-agent (ours) 182s
+22:30 [699/1197] c_diabetes_07 TH-text pretext LLM direct 63s
+22:30 [700/1197] c_diabetes_07 TH-text override Single agent + tools 104s
+22:30 [701/1197] c_diabetes_08 TH-text clean LLM direct 12s
+22:30 [702/1197] c_diabetes_07 TH-text pretext Multi-agent (ours) 24s
+22:30 [703/1197] c_diabetes_08 TH-text override LLM direct 11s
+22:30 [704/1197] c_diabetes_08 TH-text clean Multi-agent (ours) 25s
+22:31 [705/1197] c_diabetes_08 TH-text clean Single agent + tools 50s
+22:31 [706/1197] c_diabetes_08 TH-text override Multi-agent (ours) 26s
+22:31 [707/1197] c_diabetes_08 TH-text pretext LLM direct 12s
+22:31 [708/1197] c_diabetes_08 TH-text pretext Multi-agent (ours) 21s
+22:32 [709/1197] c_diabetes_09 TH-text clean LLM direct 14s
+22:32 [710/1197] c_diabetes_08 TH-text pretext Single agent + tools 76s
+22:33 [711/1197] c_diabetes_07 TH-text pretext Single agent + tools 186s
+22:33 [712/1197] c_diabetes_09 TH-text override LLM direct 21s
+22:33 [713/1197] c_diabetes_08 TH-text override Single agent + tools 180s
+22:34 [714/1197] c_diabetes_09 TH-text clean Single agent + tools 119s
+22:34 [715/1197] c_diabetes_09 TH-text clean Multi-agent (ours) 118s
+22:35 [716/1197] c_diabetes_09 TH-text override Single agent + tools 113s
+22:35 [717/1197] c_diabetes_09 TH-text pretext LLM direct 78s
+22:35 [718/1197] c_diabetes_10 TH-text clean LLM direct 24s
+22:36 [719/1197] c_diabetes_09 TH-text pretext Single agent + tools 96s
+22:37 [720/1197] c_diabetes_10 TH-text clean Single agent + tools 96s
+22:37 [721/1197] c_diabetes_10 TH-text override LLM direct 16s
+22:37 [722/1197] c_diabetes_09 TH-text pretext Multi-agent (ours) 142s
+22:37 [723/1197] c_diabetes_09 TH-text override Multi-agent (ours) 244s
+22:38 [724/1197] c_diabetes_10 TH-text pretext LLM direct 27s
+22:38 [725/1197] c_diabetes_10 TH-text clean Multi-agent (ours) 140s
+22:39 [726/1197] c_diabetes_10 TH-text pretext Single agent + tools 74s
+22:39 [727/1197] c_diabetes_11 TH-text clean LLM direct 10s
+22:40 [728/1197] c_diabetes_10 TH-text override Multi-agent (ours) 163s
+22:41 [729/1197] c_diabetes_11 TH-text clean Multi-agent (ours) 38s
+22:41 [730/1197] c_diabetes_10 TH-text pretext Multi-agent (ours) 173s
+22:41 [731/1197] c_diabetes_11 TH-text override LLM direct 18s
+22:42 [732/1197] c_diabetes_10 TH-text override Single agent + tools 262s
+22:42 [733/1197] c_diabetes_11 TH-text clean Single agent + tools 138s
+22:42 [734/1197] c_diabetes_11 TH-text pretext LLM direct 23s
+22:42 [735/1197] c_diabetes_11 TH-text override Multi-agent (ours) 64s
+22:42 [736/1197] c_diabetes_12 TH-text clean LLM direct 6s
+22:42 [737/1197] c_diabetes_11 TH-text pretext Multi-agent (ours) 15s
+22:42 [738/1197] c_diabetes_11 TH-text pretext Single agent + tools 48s
+22:42 [739/1197] c_diabetes_12 TH-text override LLM direct 7s
+22:43 [740/1197] c_diabetes_12 TH-text clean Single agent + tools 35s
+22:43 [741/1197] c_diabetes_12 TH-text clean Multi-agent (ours) 30s
+22:43 [742/1197] c_diabetes_12 TH-text pretext LLM direct 6s
+22:43 [743/1197] c_diabetes_11 TH-text override Single agent + tools 121s
+22:43 [744/1197] c_diabetes_12 TH-text override Multi-agent (ours) 19s
+22:43 [745/1197] c_diabetes_13 TH-text clean LLM direct 10s
+22:43 [746/1197] c_diabetes_12 TH-text pretext Multi-agent (ours) 18s
+22:44 [747/1197] c_diabetes_12 TH-text pretext Single agent + tools 47s
+22:44 [748/1197] c_diabetes_13 TH-text override LLM direct 17s
+22:44 [749/1197] c_diabetes_12 TH-text override Single agent + tools 86s
+22:44 [750/1197] c_diabetes_13 TH-text clean Multi-agent (ours) 76s
+22:45 [751/1197] c_diabetes_13 TH-text pretext LLM direct 15s
+22:45 [752/1197] c_diabetes_13 TH-text override Single agent + tools 69s
+22:45 [753/1197] c_diabetes_13 TH-text override Multi-agent (ours) 72s
+22:46 [754/1197] c_diabetes_14 TH-text clean LLM direct 22s
+22:47 [755/1197] c_diabetes_13 TH-text pretext Multi-agent (ours) 92s
+22:47 [756/1197] c_diabetes_14 TH-text clean Single agent + tools 66s
+22:47 [757/1197] c_diabetes_14 TH-text override LLM direct 11s
+22:48 [758/1197] c_diabetes_14 TH-text clean Multi-agent (ours) 67s
+22:48 [759/1197] c_diabetes_14 TH-text override Single agent + tools 99s
+22:49 [760/1197] c_diabetes_14 TH-text override Multi-agent (ours) 72s
+22:49 [761/1197] c_diabetes_14 TH-text pretext LLM direct 38s
+22:50 [762/1197] c_diabetes_13 TH-text pretext Single agent + tools 308s
+22:50 [763/1197] c_diabetes_15 TH-text clean LLM direct 12s
+22:50 [764/1197] c_diabetes_14 TH-text pretext Multi-agent (ours) 62s
+22:50 [765/1197] c_diabetes_13 TH-text clean Single agent + tools 429s
+22:50 [766/1197] c_diabetes_14 TH-text pretext Single agent + tools 91s
+22:51 [767/1197] c_diabetes_15 TH-text override LLM direct 15s
+22:51 [768/1197] c_diabetes_15 TH-text clean Single agent + tools 82s
+22:52 [769/1197] c_diabetes_15 TH-text clean Multi-agent (ours) 82s
+22:52 [770/1197] c_diabetes_15 TH-text override Multi-agent (ours) 73s
+22:52 [771/1197] c_diabetes_15 TH-text pretext LLM direct 20s
+22:52 [772/1197] c_icu_01 TH-text clean LLM direct 15s
+empty reply, retry auditor
+22:53 [773/1197] c_diabetes_15 TH-text override Single agent + tools 132s
+22:53 [774/1197] c_diabetes_15 TH-text pretext Single agent + tools 74s
+22:53 [775/1197] c_diabetes_15 TH-text pretext Multi-agent (ours) 60s
+22:53 [776/1197] c_icu_01 TH-text override LLM direct 12s
+22:54 [777/1197] c_icu_01 TH-text clean Single agent + tools 105s
+22:54 [778/1197] c_icu_01 TH-text pretext LLM direct 14s
+22:55 [779/1197] c_icu_01 TH-text clean Multi-agent (ours) 121s
+22:55 [780/1197] c_icu_01 TH-text override Multi-agent (ours) 114s
+22:55 [781/1197] c_icu_02 TH-text clean LLM direct 8s
+22:55 [782/1197] c_icu_01 TH-text override Single agent + tools 158s
+22:56 [783/1197] c_icu_01 TH-text pretext Multi-agent (ours) 61s
+22:56 [784/1197] c_icu_02 TH-text clean Multi-agent (ours) 18s
+22:56 [785/1197] c_icu_02 TH-text override LLM direct 8s
+22:56 [786/1197] c_icu_02 TH-text override Multi-agent (ours) 23s
+22:56 [787/1197] c_icu_02 TH-text pretext LLM direct 10s
+22:57 [788/1197] c_icu_01 TH-text pretext Single agent + tools 152s
+22:57 [789/1197] c_icu_02 TH-text clean Single agent + tools 113s
+22:57 [790/1197] c_icu_02 TH-text pretext Multi-agent (ours) 19s
+22:57 [791/1197] c_icu_03 TH-text clean LLM direct 23s
+22:58 [792/1197] c_icu_03 TH-text clean Single agent + tools 71s
+22:58 [793/1197] c_icu_03 TH-text override LLM direct 16s
+22:59 [794/1197] c_icu_03 TH-text clean Multi-agent (ours) 81s
+22:59 [795/1197] c_icu_02 TH-text pretext Single agent + tools 156s
+22:59 [796/1197] c_icu_03 TH-text pretext LLM direct 9s
+22:59 [797/1197] c_icu_03 TH-text override Multi-agent (ours) 35s
+23:00 [798/1197] c_icu_03 TH-text override Single agent + tools 90s
+23:00 [799/1197] c_icu_03 TH-text pretext Single agent + tools 53s
+23:00 [800/1197] c_icu_04 TH-text clean LLM direct 16s
+23:00 [801/1197] c_icu_03 TH-text pretext Multi-agent (ours) 56s
+23:00 [802/1197] c_icu_04 TH-text override LLM direct 7s
+23:01 [803/1197] c_icu_02 TH-text override Single agent + tools 292s
+23:01 [804/1197] c_icu_04 TH-text override Multi-agent (ours) 27s
+23:01 [805/1197] c_icu_04 TH-text clean Single agent + tools 63s
+23:01 [806/1197] c_icu_04 TH-text clean Multi-agent (ours) 64s
+23:02 [807/1197] c_icu_04 TH-text pretext Multi-agent (ours) 32s
+23:02 [808/1197] c_icu_04 TH-text pretext Single agent + tools 48s
+23:02 [809/1197] c_icu_04 TH-text pretext LLM direct 56s
+23:02 [810/1197] c_icu_05 TH-text clean LLM direct 20s
+23:03 [811/1197] c_icu_05 TH-text override LLM direct 22s
+23:03 [812/1197] c_icu_05 TH-text clean Multi-agent (ours) 64s
+23:03 [813/1197] c_icu_05 TH-text clean Single agent + tools 70s
+23:03 [814/1197] c_icu_04 TH-text override Single agent + tools 185s
+23:04 [815/1197] c_icu_05 TH-text pretext LLM direct 23s
+23:04 [816/1197] c_icu_05 TH-text override Multi-agent (ours) 52s
+23:04 [817/1197] c_icu_06 TH-text clean LLM direct 16s
+23:04 [818/1197] c_icu_05 TH-text override Single agent + tools 109s
+empty reply, retry auditor
+23:05 [819/1197] c_icu_06 TH-text clean Multi-agent (ours) 21s
+23:05 [820/1197] c_icu_05 TH-text pretext Multi-agent (ours) 78s
+23:05 [821/1197] c_icu_06 TH-text override LLM direct 11s
+empty reply, retry auditor
+23:06 [822/1197] c_icu_06 TH-text override Multi-agent (ours) 35s
+23:06 [823/1197] c_icu_06 TH-text pretext LLM direct 14s
+23:06 [824/1197] c_icu_06 TH-text override Single agent + tools 67s
+23:06 [825/1197] c_icu_06 TH-text pretext Multi-agent (ours) 22s
+23:07 [826/1197] c_icu_07 TH-text clean LLM direct 17s
+23:07 [827/1197] c_icu_06 TH-text pretext Single agent + tools 55s
+23:07 [828/1197] c_icu_05 TH-text pretext Single agent + tools 207s
+23:07 [829/1197] c_icu_07 TH-text clean Multi-agent (ours) 17s
+23:07 [830/1197] c_icu_06 TH-text clean Single agent + tools 170s
+23:07 [831/1197] c_icu_07 TH-text override LLM direct 12s
+23:07 [832/1197] c_icu_07 TH-text pretext LLM direct 18s
+23:08 [833/1197] c_icu_07 TH-text override Multi-agent (ours) 26s
+23:09 [834/1197] c_icu_07 TH-text override Single agent + tools 107s
+23:09 [835/1197] c_icu_07 TH-text pretext Multi-agent (ours) 87s
+23:09 [836/1197] c_icu_08 TH-text clean LLM direct 12s
+23:09 [837/1197] c_icu_07 TH-text clean Single agent + tools 156s
+23:10 [838/1197] c_icu_08 TH-text override LLM direct 20s
+23:10 [839/1197] c_icu_08 TH-text clean Single agent + tools 66s
+23:10 [840/1197] c_icu_07 TH-text pretext Single agent + tools 178s
+23:11 [841/1197] c_icu_08 TH-text clean Multi-agent (ours) 89s
+23:11 [842/1197] c_icu_08 TH-text pretext LLM direct 23s
+23:11 [843/1197] c_icu_08 TH-text override Multi-agent (ours) 48s
+23:11 [844/1197] c_icu_09 TH-text clean LLM direct 22s
+23:12 [845/1197] c_icu_08 TH-text pretext Multi-agent (ours) 51s
+23:12 [846/1197] c_icu_08 TH-text override Single agent + tools 136s
+23:12 [847/1197] c_icu_09 TH-text override LLM direct 20s
+23:12 [848/1197] c_icu_08 TH-text pretext Single agent + tools 103s
+23:13 [849/1197] c_icu_09 TH-text clean Single agent + tools 86s
+23:13 [850/1197] c_icu_09 TH-text pretext LLM direct 32s
+23:14 [851/1197] c_icu_09 TH-text override Single agent + tools 92s
+23:15 [852/1197] c_icu_09 TH-text override Multi-agent (ours) 132s
+23:15 [853/1197] c_icu_09 TH-text clean Multi-agent (ours) 168s
+23:15 [854/1197] c_icu_09 TH-text pretext Single agent + tools 78s
+23:15 [855/1197] c_icu_10 TH-text clean LLM direct 9s
+23:15 [856/1197] c_icu_10 TH-text override LLM direct 11s
+23:15 [857/1197] c_icu_10 TH-text clean Single agent + tools 31s
+23:15 [858/1197] c_icu_10 TH-text clean Multi-agent (ours) 36s
+empty reply, retry auditor
+23:16 [859/1197] c_icu_10 TH-text override Multi-agent (ours) 27s
+23:16 [860/1197] c_icu_09 TH-text pretext Multi-agent (ours) 107s
+23:16 [861/1197] c_icu_10 TH-text pretext LLM direct 22s
+23:16 [862/1197] c_icu_10 TH-text pretext Multi-agent (ours) 20s
+23:16 [863/1197] c_icu_11 TH-text clean LLM direct 19s
+23:16 [864/1197] c_icu_10 TH-text override Single agent + tools 80s
+23:17 [865/1197] c_icu_11 TH-text override LLM direct 19s
+23:17 [866/1197] c_icu_10 TH-text pretext Single agent + tools 75s
+23:18 [867/1197] c_icu_11 TH-text clean Single agent + tools 105s
+23:18 [868/1197] c_icu_11 TH-text pretext LLM direct 19s
+23:18 [869/1197] c_icu_11 TH-text clean Multi-agent (ours) 128s
+23:19 [870/1197] c_icu_11 TH-text override Multi-agent (ours) 108s
+23:19 [871/1197] c_icu_11 TH-text override Single agent + tools 135s
+23:19 [872/1197] c_icu_12 TH-text clean LLM direct 24s
+23:19 [873/1197] c_icu_11 TH-text pretext Multi-agent (ours) 65s
+23:19 [874/1197] c_icu_12 TH-text override LLM direct 15s
+23:20 [875/1197] c_icu_11 TH-text pretext Single agent + tools 118s
+23:20 [876/1197] c_icu_12 TH-text clean Multi-agent (ours) 60s
+23:20 [877/1197] c_icu_12 TH-text pretext LLM direct 12s
+empty reply, retry auditor
+23:21 [878/1197] c_icu_12 TH-text override Multi-agent (ours) 48s
+23:21 [879/1197] c_icu_12 TH-text clean Single agent + tools 123s
+23:21 [880/1197] c_icu_13 TH-text clean LLM direct 18s
+23:22 [881/1197] c_icu_12 TH-text pretext Multi-agent (ours) 71s
+23:22 [882/1197] c_icu_13 TH-text clean Single agent + tools 60s
+23:22 [883/1197] c_icu_13 TH-text override LLM direct 18s
+23:23 [884/1197] c_icu_12 TH-text pretext Single agent + tools 159s
+23:23 [885/1197] c_icu_13 TH-text clean Multi-agent (ours) 60s
+23:23 [886/1197] c_icu_13 TH-text pretext LLM direct 15s
+23:24 [887/1197] c_icu_13 TH-text override Multi-agent (ours) 51s
+23:24 [888/1197] c_icu_13 TH-text override Single agent + tools 116s
+23:25 [889/1197] c_icu_12 TH-text override Single agent + tools 305s
+23:25 [890/1197] c_icu_14 TH-text clean LLM direct 11s
+23:25 [891/1197] c_icu_14 TH-text clean Multi-agent (ours) 23s
+23:25 [892/1197] c_icu_13 TH-text pretext Single agent + tools 118s
+23:25 [893/1197] c_icu_14 TH-text override LLM direct 13s
+23:26 [894/1197] c_icu_14 TH-text override Multi-agent (ours) 33s
+23:26 [895/1197] c_icu_13 TH-text pretext Multi-agent (ours) 123s
+23:26 [896/1197] c_icu_14 TH-text clean Single agent + tools 86s
+23:26 [897/1197] c_icu_14 TH-text pretext Multi-agent (ours) 23s
+23:27 [898/1197] c_insurance_01 TH-text clean LLM direct 8s
+23:27 [899/1197] c_icu_14 TH-text pretext Single agent + tools 59s
+23:27 [900/1197] c_icu_14 TH-text override Single agent + tools 118s
+23:27 [901/1197] c_insurance_01 TH-text clean Multi-agent (ours) 27s
+23:27 [902/1197] c_insurance_01 TH-text clean Single agent + tools 42s
+23:27 [903/1197] c_icu_14 TH-text pretext LLM direct 89s
+23:27 [904/1197] c_insurance_01 TH-text pretext LLM direct 6s
+23:27 [905/1197] c_insurance_01 TH-text override LLM direct 14s
+23:28 [906/1197] c_insurance_01 TH-text override Multi-agent (ours) 16s
+23:28 [907/1197] c_insurance_01 TH-text pretext Multi-agent (ours) 15s
+23:28 [908/1197] c_insurance_02 TH-text clean LLM direct 8s
+23:28 [909/1197] c_insurance_02 TH-text clean Multi-agent (ours) 14s
+23:28 [910/1197] c_insurance_02 TH-text override LLM direct 6s
+23:29 [911/1197] c_insurance_02 TH-text clean Single agent + tools 52s
+23:29 [912/1197] c_insurance_01 TH-text pretext Single agent + tools 95s
+23:29 [913/1197] c_insurance_02 TH-text pretext LLM direct 4s
+23:29 [914/1197] c_insurance_02 TH-text override Multi-agent (ours) 32s
+empty reply, retry auditor
+empty reply, retry auditor
+23:30 [915/1197] c_insurance_02 TH-text pretext Multi-agent (ours) 32s
+23:30 [916/1197] c_stroke_01 TH-text clean LLM direct 9s
+23:30 [917/1197] c_insurance_02 TH-text pretext Single agent + tools 52s
+23:30 [918/1197] c_insurance_01 TH-text override Single agent + tools 170s
+23:30 [919/1197] c_stroke_01 TH-text clean Multi-agent (ours) 15s
+23:30 [920/1197] c_stroke_01 TH-text override LLM direct 11s
+23:31 [921/1197] c_insurance_02 TH-text override Single agent + tools 149s
+23:31 [922/1197] c_stroke_01 TH-text override Multi-agent (ours) 27s
+23:31 [923/1197] c_stroke_01 TH-text pretext LLM direct 13s
+23:31 [924/1197] c_stroke_01 TH-text pretext Multi-agent (ours) 20s
+23:31 [925/1197] c_stroke_02 TH-text clean LLM direct 10s
+23:32 [926/1197] c_stroke_01 TH-text override Single agent + tools 82s
+23:32 [927/1197] c_stroke_02 TH-text clean Multi-agent (ours) 21s
+23:32 [928/1197] c_stroke_02 TH-text override LLM direct 10s
+23:32 [929/1197] c_stroke_01 TH-text clean Single agent + tools 145s
+23:33 [930/1197] c_stroke_01 TH-text pretext Single agent + tools 112s
+23:33 [931/1197] c_stroke_02 TH-text clean Single agent + tools 82s
+23:33 [932/1197] c_stroke_02 TH-text pretext LLM direct 12s
+23:33 [933/1197] c_stroke_02 TH-text override Multi-agent (ours) 42s
+23:33 [934/1197] c_stroke_03 TH-text clean LLM direct 11s
+23:33 [935/1197] c_stroke_02 TH-text pretext Multi-agent (ours) 27s
+23:33 [936/1197] c_stroke_03 TH-text clean Multi-agent (ours) 12s
+23:34 [937/1197] c_stroke_03 TH-text override LLM direct 10s
+23:34 [938/1197] c_stroke_02 TH-text pretext Single agent + tools 89s
+23:35 [939/1197] c_stroke_03 TH-text clean Single agent + tools 90s
+23:35 [940/1197] c_stroke_02 TH-text override Single agent + tools 153s
+23:35 [941/1197] c_stroke_03 TH-text pretext LLM direct 9s
+23:35 [942/1197] c_stroke_03 TH-text override Single agent + tools 75s
+23:35 [943/1197] c_stroke_04 TH-text clean LLM direct 6s
+23:36 [944/1197] c_stroke_03 TH-text override Multi-agent (ours) 104s
+23:36 [945/1197] c_stroke_04 TH-text clean Single agent + tools 55s
+23:36 [946/1197] c_stroke_04 TH-text clean Multi-agent (ours) 11s
+23:36 [947/1197] c_stroke_04 TH-text override LLM direct 9s
+23:36 [948/1197] c_stroke_04 TH-text override Multi-agent (ours) 19s
+empty reply, retry auditor
+23:37 [949/1197] c_stroke_03 TH-text pretext Multi-agent (ours) 115s
+23:37 [950/1197] c_stroke_04 TH-text pretext LLM direct 19s
+23:37 [951/1197] c_stroke_03 TH-text pretext Single agent + tools 138s
+empty reply, retry auditor
+23:37 [952/1197] c_synthea_01 TH-text clean LLM direct 12s
+23:37 [953/1197] c_stroke_04 TH-text pretext Multi-agent (ours) 30s
+23:38 [954/1197] c_synthea_01 TH-text clean Multi-agent (ours) 46s
+23:38 [955/1197] c_stroke_04 TH-text pretext Single agent + tools 83s
+23:38 [956/1197] c_synthea_01 TH-text override LLM direct 16s
+23:39 [957/1197] c_synthea_01 TH-text override Single agent + tools 77s
+23:40 [958/1197] c_synthea_01 TH-text clean Single agent + tools 148s
+23:40 [959/1197] c_synthea_01 TH-text override Multi-agent (ours) 99s
+23:40 [960/1197] c_stroke_04 TH-text override Single agent + tools 255s
+23:40 [961/1197] c_synthea_02 TH-text clean LLM direct 9s
+23:41 [962/1197] c_synthea_01 TH-text pretext Single agent + tools 59s
+23:41 [963/1197] c_synthea_01 TH-text pretext LLM direct 80s
+23:41 [964/1197] c_synthea_02 TH-text override LLM direct 19s
+23:41 [965/1197] c_synthea_02 TH-text clean Multi-agent (ours) 27s
+23:41 [966/1197] c_synthea_01 TH-text pretext Multi-agent (ours) 78s
+23:41 [967/1197] c_synthea_02 TH-text clean Single agent + tools 57s
+23:41 [968/1197] c_synthea_02 TH-text override Multi-agent (ours) 20s
+23:42 [969/1197] c_synthea_02 TH-text pretext LLM direct 14s
+23:42 [970/1197] c_synthea_03 TH-text clean LLM direct 18s
+empty reply, retry auditor
+empty reply, retry auditor
+23:42 [971/1197] c_synthea_02 TH-text pretext Single agent + tools 43s
+empty reply, retry auditor
+23:42 [972/1197] c_synthea_02 TH-text override Single agent + tools 82s
+23:42 [973/1197] c_synthea_02 TH-text pretext Multi-agent (ours) 61s
+23:43 [974/1197] c_synthea_03 TH-text override LLM direct 12s
+23:43 [975/1197] c_synthea_03 TH-text clean Single agent + tools 70s
+23:43 [976/1197] c_synthea_03 TH-text clean Multi-agent (ours) 72s
+23:44 [977/1197] c_synthea_03 TH-text pretext LLM direct 29s
+23:44 [978/1197] c_synthea_03 TH-text override Single agent + tools 78s
+23:44 [979/1197] c_synthea_03 TH-text override Multi-agent (ours) 73s
+23:44 [980/1197] c_synthea_04 TH-text clean LLM direct 10s
+23:44 [981/1197] c_synthea_03 TH-text pretext Multi-agent (ours) 56s
+23:45 [982/1197] c_synthea_04 TH-text clean Multi-agent (ours) 37s
+23:45 [983/1197] c_synthea_04 TH-text override LLM direct 18s
+23:45 [984/1197] c_synthea_04 TH-text clean Single agent + tools 55s
+23:45 [985/1197] c_synthea_04 TH-text pretext LLM direct 20s
+23:45 [986/1197] c_synthea_04 TH-text override Multi-agent (ours) 20s
+23:45 [987/1197] c_synthea_03 TH-text pretext Single agent + tools 116s
+23:46 [988/1197] c_synthea_04 TH-text pretext Multi-agent (ours) 25s
+23:46 [989/1197] c_synthea_04 TH-text override Single agent + tools 61s
+23:46 [990/1197] c_synthea_05 TH-text clean LLM direct 23s
+23:46 [991/1197] c_synthea_05 TH-text override LLM direct 14s
+23:46 [992/1197] c_synthea_04 TH-text pretext Single agent + tools 68s
+23:47 [993/1197] c_synthea_05 TH-text override Multi-agent (ours) 54s
+23:47 [994/1197] c_synthea_05 TH-text override Single agent + tools 75s
+23:47 [995/1197] c_synthea_05 TH-text clean Multi-agent (ours) 93s
+23:47 [996/1197] c_synthea_05 TH-text clean Single agent + tools 100s
+23:47 [997/1197] c_synthea_05 TH-text pretext LLM direct 12s
+23:48 [998/1197] c_synthea_06 TH-text clean LLM direct 35s
+23:48 [999/1197] c_synthea_06 TH-text clean Multi-agent (ours) 22s
+23:48 [1000/1197] c_synthea_05 TH-text pretext Multi-agent (ours) 65s
+23:48 [1001/1197] c_synthea_06 TH-text clean Single agent + tools 62s
+23:48 [1002/1197] c_synthea_06 TH-text override LLM direct 15s
+23:49 [1003/1197] c_synthea_06 TH-text pretext LLM direct 20s
+23:49 [1004/1197] c_synthea_05 TH-text pretext Single agent + tools 138s
+23:50 [1005/1197] c_synthea_06 TH-text override Multi-agent (ours) 75s
+23:50 [1006/1197] c_synthea_06 TH-text pretext Multi-agent (ours) 23s
+23:50 [1007/1197] c_synthea_07 TH-text clean LLM direct 21s
+23:50 [1008/1197] c_synthea_06 TH-text pretext Single agent + tools 81s
+23:50 [1009/1197] c_synthea_07 TH-text override LLM direct 10s
+23:51 [1010/1197] c_synthea_06 TH-text override Single agent + tools 135s
+23:51 [1011/1197] c_synthea_07 TH-text clean Multi-agent (ours) 47s
+23:51 [1012/1197] c_synthea_07 TH-text pretext LLM direct 15s
+23:51 [1013/1197] c_synthea_07 TH-text override Multi-agent (ours) 47s
+23:52 [1014/1197] c_synthea_07 TH-text clean Single agent + tools 118s
+23:52 [1015/1197] c_synthea_07 TH-text pretext Multi-agent (ours) 33s
+23:52 [1016/1197] c_synthea_08 TH-text clean LLM direct 9s
+23:52 [1017/1197] c_synthea_08 TH-text clean Single agent + tools 27s
+23:52 [1018/1197] c_synthea_08 TH-text clean Multi-agent (ours) 22s
+23:52 [1019/1197] c_synthea_08 TH-text override LLM direct 7s
+23:53 [1020/1197] c_synthea_08 TH-text override Multi-agent (ours) 28s
+23:53 [1021/1197] c_synthea_08 TH-text pretext LLM direct 13s
+23:54 [1022/1197] c_synthea_08 TH-text pretext Single agent + tools 35s
+23:54 [1023/1197] c_synthea_08 TH-text override Single agent + tools 94s
+empty reply, retry auditor
+23:54 [1024/1197] c_synthea_07 TH-text override Single agent + tools 237s
+23:54 [1025/1197] c_brfss_01 TH-names clean LLM direct 20s
+23:54 [1026/1197] c_synthea_08 TH-text pretext Multi-agent (ours) 44s
+23:55 [1027/1197] c_brfss_02 TH-names clean LLM direct 11s
+23:55 [1028/1197] c_brfss_01 TH-names clean Multi-agent (ours) 63s
+23:56 [1029/1197] c_brfss_01 TH-names clean Single agent + tools 87s
+23:56 [1030/1197] c_brfss_02 TH-names clean Multi-agent (ours) 25s
+23:56 [1031/1197] c_synthea_07 TH-text pretext Single agent + tools 282s
+23:56 [1032/1197] c_brfss_03 TH-names clean LLM direct 12s
+23:56 [1033/1197] c_brfss_03 TH-names clean Multi-agent (ours) 18s
+23:56 [1034/1197] c_brfss_04 TH-names clean LLM direct 13s
+23:57 [1035/1197] c_brfss_02 TH-names clean Single agent + tools 114s
+23:57 [1036/1197] c_brfss_05 TH-names clean LLM direct 14s
+23:57 [1037/1197] c_brfss_04 TH-names clean Multi-agent (ours) 48s
+23:57 [1038/1197] c_brfss_03 TH-names clean Single agent + tools 86s
+23:57 [1039/1197] c_brfss_05 TH-names clean Multi-agent (ours) 17s
+23:57 [1040/1197] c_brfss_05 TH-names clean Single agent + tools 26s
+23:57 [1041/1197] c_brfss_06 TH-names clean LLM direct 14s
+23:58 [1042/1197] c_brfss_06 TH-names clean Multi-agent (ours) 15s
+23:58 [1043/1197] c_brfss_07 TH-names clean LLM direct 11s
+23:58 [1044/1197] c_brfss_07 TH-names clean Multi-agent (ours) 23s
+23:58 [1045/1197] c_brfss_04 TH-names clean Single agent + tools 124s
+23:58 [1046/1197] c_brfss_09 TH-names clean LLM direct 10s
+23:58 [1047/1197] c_brfss_09 TH-names clean Multi-agent (ours) 15s
+23:58 [1048/1197] c_brfss_07 TH-names clean Single agent + tools 56s
+23:59 [1049/1197] c_brfss_10 TH-names clean LLM direct 10s
+23:59 [1050/1197] c_brfss_09 TH-names clean Single agent + tools 30s
+23:59 [1051/1197] c_brfss_10 TH-names clean Multi-agent (ours) 14s
+23:59 [1052/1197] c_brfss_11 TH-names clean LLM direct 14s
+23:59 [1053/1197] c_brfss_11 TH-names clean Multi-agent (ours) 30s
+00:00 [1054/1197] c_brfss_12 TH-names clean LLM direct 20s
+00:00 [1055/1197] c_brfss_10 TH-names clean Single agent + tools 88s
+00:00 [1056/1197] c_brfss_11 TH-names clean Single agent + tools 70s
+00:00 [1057/1197] c_brfss_12 TH-names clean Multi-agent (ours) 16s
+00:00 [1058/1197] c_brfss_13 TH-names clean LLM direct 12s
+00:00 [1059/1197] c_brfss_06 TH-names clean Single agent + tools 188s
+00:01 [1060/1197] c_brfss_13 TH-names clean Multi-agent (ours) 22s
+00:01 [1061/1197] c_brfss_14 TH-names clean LLM direct 16s
+00:01 [1062/1197] c_brfss_13 TH-names clean Single agent + tools 46s
+00:01 [1063/1197] c_brfss_15 TH-names clean LLM direct 7s
+00:01 [1064/1197] c_brfss_14 TH-names clean Multi-agent (ours) 39s
+00:02 [1065/1197] c_brfss_15 TH-names clean Single agent + tools 35s
+00:02 [1066/1197] c_brfss_15 TH-names clean Multi-agent (ours) 23s
+00:02 [1067/1197] c_brfss_14 TH-names clean Single agent + tools 75s
+00:02 [1068/1197] c_diabetes_01 TH-names clean LLM direct 10s
+00:02 [1069/1197] c_diabetes_02 TH-names clean LLM direct 10s
+00:02 [1070/1197] c_brfss_12 TH-names clean Single agent + tools 149s
+00:03 [1071/1197] c_diabetes_01 TH-names clean Multi-agent (ours) 54s
+00:03 [1072/1197] c_diabetes_01 TH-names clean Single agent + tools 67s
+00:03 [1073/1197] c_diabetes_03 TH-names clean LLM direct 20s
+empty reply, retry auditor
+00:04 [1074/1197] c_diabetes_02 TH-names clean Multi-agent (ours) 115s
+00:05 [1075/1197] c_diabetes_02 TH-names clean Single agent + tools 152s
+00:05 [1076/1197] c_diabetes_04 TH-names clean LLM direct 24s
+00:05 [1077/1197] c_diabetes_03 TH-names clean Multi-agent (ours) 117s
+00:05 [1078/1197] c_diabetes_05 TH-names clean LLM direct 11s
+00:05 [1079/1197] c_diabetes_03 TH-names clean Single agent + tools 153s
+00:06 [1080/1197] c_diabetes_05 TH-names clean Multi-agent (ours) 26s
+00:06 [1081/1197] c_diabetes_04 TH-names clean Multi-agent (ours) 86s
+00:06 [1082/1197] c_diabetes_06 TH-names clean LLM direct 22s
+00:07 [1083/1197] c_diabetes_04 TH-names clean Single agent + tools 130s
+00:07 [1084/1197] c_diabetes_05 TH-names clean Single agent + tools 99s
+00:07 [1085/1197] c_diabetes_07 TH-names clean LLM direct 16s
+00:08 [1086/1197] c_diabetes_07 TH-names clean Multi-agent (ours) 30s
+00:08 [1087/1197] c_diabetes_06 TH-names clean Multi-agent (ours) 100s
+00:08 [1088/1197] c_diabetes_06 TH-names clean Single agent + tools 112s
+00:08 [1089/1197] c_diabetes_08 TH-names clean LLM direct 32s
+00:08 [1090/1197] c_diabetes_08 TH-names clean Multi-agent (ours) 17s
+00:08 [1091/1197] c_diabetes_09 TH-names clean LLM direct 18s
+00:09 [1092/1197] c_diabetes_08 TH-names clean Single agent + tools 46s
+00:09 [1093/1197] c_diabetes_10 TH-names clean LLM direct 28s
+00:09 [1094/1197] c_diabetes_09 TH-names clean Single agent + tools 59s
+00:10 [1095/1197] c_diabetes_07 TH-names clean Single agent + tools 166s
+00:10 [1096/1197] c_diabetes_11 TH-names clean LLM direct 13s
+00:10 [1097/1197] c_diabetes_10 TH-names clean Single agent + tools 69s
+00:11 [1098/1197] c_diabetes_09 TH-names clean Multi-agent (ours) 128s
+00:11 [1099/1197] c_diabetes_12 TH-names clean LLM direct 7s
+00:11 [1100/1197] c_diabetes_11 TH-names clean Single agent + tools 46s
+00:11 [1101/1197] c_diabetes_12 TH-names clean Single agent + tools 29s
+00:12 [1102/1197] c_diabetes_13 TH-names clean LLM direct 26s
+00:12 [1103/1197] c_diabetes_11 TH-names clean Multi-agent (ours) 93s
+00:12 [1104/1197] c_diabetes_12 TH-names clean Multi-agent (ours) 84s
+00:12 [1105/1197] c_diabetes_10 TH-names clean Multi-agent (ours) 180s
+00:12 [1106/1197] c_diabetes_14 TH-names clean LLM direct 18s
+00:13 [1107/1197] c_diabetes_13 TH-names clean Single agent + tools 91s
+00:13 [1108/1197] c_diabetes_14 TH-names clean Single agent + tools 56s
+00:14 [1109/1197] c_diabetes_15 TH-names clean LLM direct 44s
+00:15 [1110/1197] c_diabetes_15 TH-names clean Single agent + tools 126s
+00:16 [1111/1197] c_icu_01 TH-names clean LLM direct 28s
+00:16 [1112/1197] c_diabetes_13 TH-names clean Multi-agent (ours) 252s
+00:16 [1113/1197] c_diabetes_14 TH-names clean Multi-agent (ours) 228s
+00:17 [1114/1197] c_diabetes_15 TH-names clean Multi-agent (ours) 166s
+00:17 [1115/1197] c_icu_02 TH-names clean LLM direct 25s
+00:17 [1116/1197] c_icu_02 TH-names clean Multi-agent (ours) 18s
+00:17 [1117/1197] c_icu_03 TH-names clean LLM direct 22s
+00:17 [1118/1197] c_icu_01 TH-names clean Single agent + tools 98s
+00:18 [1119/1197] c_icu_01 TH-names clean Multi-agent (ours) 93s
+00:18 [1120/1197] c_icu_04 TH-names clean LLM direct 21s
+00:18 [1121/1197] c_icu_02 TH-names clean Single agent + tools 97s
+empty reply, retry auditor
+00:18 [1122/1197] c_icu_03 TH-names clean Single agent + tools 63s
+empty reply, retry auditor
+00:19 [1123/1197] c_icu_04 TH-names clean Multi-agent (ours) 26s
+00:19 [1124/1197] c_icu_04 TH-names clean Single agent + tools 47s
+00:19 [1125/1197] c_icu_05 TH-names clean LLM direct 27s
+00:19 [1126/1197] c_icu_03 TH-names clean Multi-agent (ours) 87s
+00:19 [1127/1197] c_icu_06 TH-names clean LLM direct 6s
+00:19 [1128/1197] c_icu_06 TH-names clean Multi-agent (ours) 23s
+00:19 [1129/1197] c_icu_06 TH-names clean Single agent + tools 30s
+00:20 [1130/1197] c_icu_05 TH-names clean Single agent + tools 55s
+00:20 [1131/1197] c_icu_05 TH-names clean Multi-agent (ours) 60s
+00:20 [1132/1197] c_icu_07 TH-names clean LLM direct 25s
+00:20 [1133/1197] c_icu_08 TH-names clean LLM direct 14s
+00:21 [1134/1197] c_icu_07 TH-names clean Single agent + tools 78s
+00:21 [1135/1197] c_icu_09 TH-names clean LLM direct 29s
+00:21 [1136/1197] c_icu_08 TH-names clean Single agent + tools 92s
+00:21 [1137/1197] c_icu_08 TH-names clean Multi-agent (ours) 81s
+00:21 [1138/1197] c_icu_07 TH-names clean Multi-agent (ours) 107s
+00:22 [1139/1197] c_icu_10 TH-names clean LLM direct 8s
+00:22 [1140/1197] c_icu_10 TH-names clean Multi-agent (ours) 16s
+00:22 [1141/1197] c_icu_11 TH-names clean LLM direct 19s
+00:22 [1142/1197] c_icu_10 TH-names clean Single agent + tools 58s
+00:23 [1143/1197] c_icu_09 TH-names clean Single agent + tools 123s
+00:23 [1144/1197] c_icu_09 TH-names clean Multi-agent (ours) 120s
+00:24 [1145/1197] c_icu_11 TH-names clean Multi-agent (ours) 82s
+00:24 [1146/1197] c_icu_12 TH-names clean LLM direct 39s
+00:24 [1147/1197] c_icu_13 TH-names clean LLM direct 14s
+00:24 [1148/1197] c_icu_11 TH-names clean Single agent + tools 136s
+00:25 [1149/1197] c_icu_12 TH-names clean Single agent + tools 90s
+00:25 [1150/1197] c_icu_12 TH-names clean Multi-agent (ours) 65s
+empty reply, retry auditor
+00:25 [1151/1197] c_icu_13 TH-names clean Multi-agent (ours) 37s
+00:25 [1152/1197] c_icu_14 TH-names clean LLM direct 11s
+00:25 [1153/1197] c_insurance_01 TH-names clean LLM direct 15s
+00:25 [1154/1197] c_icu_14 TH-names clean Multi-agent (ours) 23s
+00:26 [1155/1197] c_insurance_01 TH-names clean Multi-agent (ours) 14s
+00:26 [1156/1197] c_icu_14 TH-names clean Single agent + tools 59s
+00:26 [1157/1197] c_insurance_02 TH-names clean LLM direct 13s
+00:26 [1158/1197] c_insurance_02 TH-names clean Multi-agent (ours) 13s
+00:26 [1159/1197] c_stroke_01 TH-names clean LLM direct 5s
+00:27 [1160/1197] c_icu_13 TH-names clean Single agent + tools 141s
+00:27 [1161/1197] c_insurance_01 TH-names clean Single agent + tools 70s
+00:27 [1162/1197] c_insurance_02 TH-names clean Single agent + tools 37s
+00:27 [1163/1197] c_stroke_02 TH-names clean LLM direct 9s
+00:27 [1164/1197] c_stroke_01 TH-names clean Multi-agent (ours) 18s
+00:27 [1165/1197] c_stroke_02 TH-names clean Multi-agent (ours) 14s
+00:27 [1166/1197] c_stroke_03 TH-names clean LLM direct 11s
+00:27 [1167/1197] c_stroke_01 TH-names clean Single agent + tools 67s
+00:28 [1168/1197] c_stroke_04 TH-names clean LLM direct 9s
+00:28 [1169/1197] c_stroke_02 TH-names clean Single agent + tools 62s
+00:28 [1170/1197] c_stroke_04 TH-names clean Multi-agent (ours) 11s
+00:28 [1171/1197] c_synthea_01 TH-names clean LLM direct 20s
+00:28 [1172/1197] c_stroke_03 TH-names clean Single agent + tools 89s
+00:29 [1173/1197] c_stroke_04 TH-names clean Single agent + tools 66s
+00:29 [1174/1197] c_synthea_02 TH-names clean LLM direct 14s
+00:29 [1175/1197] c_synthea_01 TH-names clean Single agent + tools 57s
+00:29 [1176/1197] c_stroke_03 TH-names clean Multi-agent (ours) 134s
+empty reply, retry auditor
+00:29 [1177/1197] c_synthea_01 TH-names clean Multi-agent (ours) 56s
+00:29 [1178/1197] c_synthea_02 TH-names clean Multi-agent (ours) 21s
+00:30 [1179/1197] c_synthea_03 TH-names clean LLM direct 19s
+00:30 [1180/1197] c_synthea_04 TH-names clean LLM direct 8s
+00:30 [1181/1197] c_synthea_02 TH-names clean Single agent + tools 51s
+00:30 [1182/1197] c_synthea_04 TH-names clean Multi-agent (ours) 32s
+00:30 [1183/1197] c_synthea_04 TH-names clean Single agent + tools 39s
+00:30 [1184/1197] c_synthea_05 TH-names clean LLM direct 11s
+00:31 [1185/1197] c_synthea_03 TH-names clean Single agent + tools 100s
+00:31 [1186/1197] c_synthea_06 TH-names clean LLM direct 8s
+00:32 [1187/1197] c_synthea_05 TH-names clean Multi-agent (ours) 84s
+00:32 [1188/1197] c_synthea_05 TH-names clean Single agent + tools 97s
+00:32 [1189/1197] c_synthea_07 TH-names clean LLM direct 14s
+00:33 [1190/1197] c_synthea_06 TH-names clean Multi-agent (ours) 37s
+00:33 [1191/1197] c_synthea_03 TH-names clean Multi-agent (ours) 192s
+00:33 [1192/1197] c_synthea_08 TH-names clean LLM direct 8s
+00:33 [1193/1197] c_synthea_07 TH-names clean Single agent + tools 68s
+00:34 [1194/1197] c_synthea_08 TH-names clean Single agent + tools 58s
+00:34 [1195/1197] c_synthea_08 TH-names clean Multi-agent (ours) 23s
+00:34 [1196/1197] c_synthea_06 TH-names clean Single agent + tools 164s
+00:34 [1197/1197] c_synthea_07 TH-names clean Multi-agent (ours) 84s
+2026-11-02 00:35 run ended. 0 units left -- all done; next: collect

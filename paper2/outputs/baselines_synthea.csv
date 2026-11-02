@@ -1,0 +1,11 @@
+purpose,method,safe,reid,auc,retention,target_granted,n_granted,n_generalized,unnecessary,missing_needed
+synthea_p1,As requested,0,1.0,0.9967719028538021,1.0,1,32,0,30,0
+synthea_p1,Deny if risky,1,0.0,0.5,0.0,0,0,0,0,1
+synthea_p1,"Rule (drop ids, coarsen QIs)",1,0.04696840307429547,0.9992430874467194,1.0049744854302771,1,19,4,17,0
+synthea_p1,Purpose-blind greedy,1,0.04696840307429547,0.9992430874467194,1.0049744854302771,1,19,4,17,0
+synthea_p1,Target-known search,1,0.0,0.996982683437715,1.000424300534515,1,2,0,0,0
+synthea_p2,As requested,0,1.0,0.9688574841510139,1.0,1,32,0,25,0
+synthea_p2,Deny if risky,1,0.0,0.5,0.0,0,0,0,0,6
+synthea_p2,"Rule (drop ids, coarsen QIs)",1,0.04696840307429547,0.9323367847097961,0.9221070353449772,1,19,4,14,2
+synthea_p2,Purpose-blind greedy,1,0.04696840307429547,0.9323367847097961,0.9221070353449772,1,19,4,14,2
+synthea_p2,Target-known search,1,0.014517506404782237,0.9480933767992399,0.9557133925474758,1,5,2,0,2

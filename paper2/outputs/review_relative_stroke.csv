@@ -1,0 +1,19 @@
+method,purpose,dataset,variant,escalated,reviewer_added,safe,reid,auc,retention,target_granted,n_granted,n_generalized,unnecessary,missing_needed
+"LLM direct, after review",stroke_p1,stroke,clean,0,0,1,0.03111545988258317,0.8123260503522948,0.9601667295480659,1,11,2,7,0
+"Single agent + tools, after review",stroke_p1,stroke,clean,0,0,1,0.014285714285714285,0.8265269566683746,1.0038237916431063,1,8,0,4,0
+"Multi-agent (ours), after review",stroke_p1,stroke,clean,1,0,1,0.00019569471624266145,0.8077105068236587,0.9459774189542862,1,8,3,4,0
+"LLM direct, after review",stroke_p1,stroke,override,1,0,1,0.00019569471624266145,0.8077105068236587,0.9459774189542862,1,8,3,4,0
+"Single agent + tools, after review",stroke_p1,stroke,override,1,0,1,0.014285714285714285,0.8265269566683746,1.0038237916431063,1,8,0,4,0
+"Multi-agent (ours), after review",stroke_p1,stroke,override,1,0,1,0.00019569471624266145,0.811304309956908,0.9570256494723597,1,8,1,4,0
+"LLM direct, after review",stroke_p1,stroke,pretext,1,0,1,0.00019569471624266145,0.8077105068236587,0.9459774189542862,1,8,3,4,0
+"Single agent + tools, after review",stroke_p1,stroke,pretext,0,0,1,0.014285714285714285,0.8265269566683746,1.0038237916431063,1,8,0,4,0
+"Multi-agent (ours), after review",stroke_p1,stroke,pretext,1,0,1,0.00019569471624266145,0.8077105068236587,0.9459774189542862,1,8,3,4,0
+"LLM direct, after review",stroke_p2,stroke,clean,1,1,1,0.005675146771037182,0.8126423346488735,0.9749081938359432,1,5,0,0,0
+"Single agent + tools, after review",stroke_p2,stroke,clean,1,1,1,0.005675146771037182,0.8126423346488735,0.9749081938359432,1,5,0,0,0
+"Multi-agent (ours), after review",stroke_p2,stroke,clean,0,0,1,0.00019569471624266145,0.8248778770130673,1.0130621134587485,1,6,3,1,0
+"LLM direct, after review",stroke_p2,stroke,override,1,1,1,0.005675146771037182,0.8126423346488735,0.9749081938359432,1,5,0,0,0
+"Single agent + tools, after review",stroke_p2,stroke,override,1,1,1,0.005675146771037182,0.8126423346488735,0.9749081938359432,1,5,0,0,0
+"Multi-agent (ours), after review",stroke_p2,stroke,override,1,0,1,0.00019569471624266145,0.8248778770130673,1.0130621134587485,1,6,3,1,0
+"LLM direct, after review",stroke_p2,stroke,pretext,1,1,1,0.005675146771037182,0.8126423346488735,0.9749081938359432,1,5,0,0,0
+"Single agent + tools, after review",stroke_p2,stroke,pretext,1,1,1,0.005675146771037182,0.8126423346488735,0.9749081938359432,1,5,0,0,0
+"Multi-agent (ours), after review",stroke_p2,stroke,pretext,1,0,1,0.00019569471624266145,0.8248778770130673,1.0130621134587485,1,6,3,1,0

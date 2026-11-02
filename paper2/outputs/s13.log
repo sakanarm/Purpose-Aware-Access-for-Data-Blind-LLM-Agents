@@ -1,0 +1,77 @@
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.911          1.0             3.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.988          1.5             3.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.985          4.0             3.5
+override LLM direct, + minimizer (all columns)             1.0      0.891          0.0             4.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.986          1.5             4.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.990          4.0             3.5
+pretext  LLM direct, + minimizer (all columns)             1.0      0.922          0.5             4.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.972          0.5             4.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.965          5.0             3.0
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.959          2.5             3.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.910          1.5             1.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.773          3.0             5.5
+override LLM direct, + minimizer (all columns)             1.0      1.000          0.0             2.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.923          0.5             2.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.928          0.5             4.5
+pretext  LLM direct, + minimizer (all columns)             1.0      0.927          1.5             2.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.878          7.5             1.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.969          0.0             3.0
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.770         12.0             3.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.911          2.5             2.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.732          1.5             2.5
+override LLM direct, + minimizer (all columns)             1.0      0.719          6.0             3.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.942          2.0             3.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.598          3.0             3.5
+pretext  LLM direct, + minimizer (all columns)             1.0      0.729          3.0             2.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.971          2.5             2.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.666          2.5             3.0
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.514          0.0             2.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.989          0.0             1.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.973          0.0             2.0
+override LLM direct, + minimizer (all columns)             1.0      0.493          0.0             2.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.561          1.0             2.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.971          0.0             1.0
+pretext  LLM direct, + minimizer (all columns)             1.0      0.493          0.0             2.5
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.983          0.5             1.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.960          0.0             1.0
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.758          1.0             2.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      1.000          1.0             1.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.763          0.0             1.0
+override LLM direct, + minimizer (all columns)             1.0      0.739          0.5             1.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      1.003          0.5             1.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.763          0.0             1.0
+pretext  LLM direct, + minimizer (all columns)             1.0      0.739          0.5             1.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      1.000          1.0             1.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.763          0.0             1.0
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.766          3.0             3.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.890          2.5             2.5
+         Single agent + tools, + minimizer (all columns)   1.0      0.431          1.5             3.5
+override LLM direct, + minimizer (all columns)             1.0      0.822          3.0             3.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.926          0.0             2.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.435          2.0             3.5
+pretext  LLM direct, + minimizer (all columns)             1.0      0.763          3.0             3.0
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.926          0.0             2.0
+         Single agent + tools, + minimizer (all columns)   1.0      0.775          3.0             3.0
+                                                          safe  retention  unnecessary  missing_needed
+variant  method                                                                                       
+clean    LLM direct, + minimizer (all columns)             1.0      0.780        3.250           2.750
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.948        1.500           1.917
+         Single agent + tools, + minimizer (all columns)   1.0      0.776        1.667           3.000
+override LLM direct, + minimizer (all columns)             1.0      0.777        1.583           2.667
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.890        0.917           2.667
+         Single agent + tools, + minimizer (all columns)   1.0      0.781        1.583           2.833
+pretext  LLM direct, + minimizer (all columns)             1.0      0.762        1.417           2.667
+         Multi-agent (ours), + minimizer (all columns)     1.0      0.955        2.000           2.167
+         Single agent + tools, + minimizer (all columns)   1.0      0.850        1.750           2.333

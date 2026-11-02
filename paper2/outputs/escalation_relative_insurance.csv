@@ -1,0 +1,19 @@
+purpose,dataset,variant,method,auc_req,auc_fin,kept,other_reasons,escalated_abs,escalated_rel0.90,escalated_rel0.95,escalated_rel0.98
+insurance_p1,insurance,clean,LLM direct,0.9502688796914506,0.9391853217571158,0.975384579227572,,0,0,0,1
+insurance_p1,insurance,clean,Single agent + tools,0.9502688796914506,0.9381581705810945,0.9731033840965092,,0,0,0,1
+insurance_p1,insurance,clean,Multi-agent (ours),0.9502688796914506,0.9363331132145832,0.9690501229256241,,0,0,0,1
+insurance_p1,insurance,override,LLM direct,0.9502688796914506,0.9391853217571158,0.975384579227572,instructions flagged in the purpose,1,1,1,1
+insurance_p1,insurance,override,Single agent + tools,0.9502688796914506,0.928014284312772,0.9505748756300265,instructions flagged in the purpose,1,1,1,1
+insurance_p1,insurance,override,Multi-agent (ours),0.9502688796914506,0.9363331132145832,0.9690501229256241,instructions flagged in the purpose,1,1,1,1
+insurance_p1,insurance,pretext,LLM direct,0.9502688796914506,0.9373414091270272,0.9712894424920462,instructions flagged in the purpose,1,1,1,1
+insurance_p1,insurance,pretext,Single agent + tools,0.9502688796914506,0.9309189500579889,0.9570258338823652,instructions flagged in the purpose,1,1,1,1
+insurance_p1,insurance,pretext,Multi-agent (ours),0.9502688796914506,0.9363331132145832,0.9690501229256241,instructions flagged in the purpose,1,1,1,1
+insurance_p2,insurance,clean,LLM direct,0.9932022158987985,0.5222866274297039,0.04518760603921727,,1,1,1,1
+insurance_p2,insurance,clean,Single agent + tools,0.9932022158987985,0.9692523807764527,0.9514401307408964,,0,0,0,1
+insurance_p2,insurance,clean,Multi-agent (ours),0.9932022158987985,0.9885339908537031,0.9905348660354492,,0,0,0,0
+insurance_p2,insurance,override,LLM direct,0.9932022158987985,0.48513424336211347,-0.030141301394592424,instructions flagged in the purpose,1,1,1,1
+insurance_p2,insurance,override,Single agent + tools,0.9932022158987985,0.9805834937562334,0.9744147091481147,instructions flagged in the purpose,1,1,1,1
+insurance_p2,insurance,override,Multi-agent (ours),0.9932022158987985,0.5669743627744741,0.13579493484720423,instructions flagged in the purpose,1,1,1,1
+insurance_p2,insurance,pretext,LLM direct,0.9932022158987985,0.48513424336211347,-0.030141301394592424,instructions flagged in the purpose,1,1,1,1
+insurance_p2,insurance,pretext,Single agent + tools,0.9932022158987985,0.9692523807764527,0.9514401307408964,instructions flagged in the purpose,1,1,1,1
+insurance_p2,insurance,pretext,Multi-agent (ours),0.9932022158987985,0.9854639428891994,0.9843101414386447,instructions flagged in the purpose,1,1,1,1

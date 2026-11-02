@@ -1,0 +1,11 @@
+purpose,method,safe,reid,auc,retention,target_granted,n_granted,n_generalized,unnecessary,missing_needed
+brfss_p1,As requested,0,0.1686,0.7878612542687357,1.0,1,22,0,12,0
+brfss_p1,Deny if risky,1,0.0,0.5,0.0,0,0,0,0,9
+brfss_p1,"Rule (drop ids, coarsen QIs)",1,0.0,0.7824447266875848,0.9811835476264055,1,22,4,12,0
+brfss_p1,Purpose-blind greedy,1,0.0328,0.7834820537941516,0.9847871138972534,1,22,1,12,0
+brfss_p1,Target-known search,1,0.0018,0.7811459040579939,0.9766715731583918,1,10,0,0,0
+brfss_p2,As requested,0,0.1686,0.8300577764802105,1.0,1,22,0,12,0
+brfss_p2,Deny if risky,1,0.0,0.5,0.0,0,0,0,0,9
+brfss_p2,"Rule (drop ids, coarsen QIs)",1,0.0,0.8087736222392728,0.935513853156513,1,22,4,12,0
+brfss_p2,Purpose-blind greedy,1,0.0328,0.822974736806649,0.9785400006353548,1,22,1,12,0
+brfss_p2,Target-known search,1,0.0,0.8351341929584812,1.0153803874352134,1,10,0,0,0

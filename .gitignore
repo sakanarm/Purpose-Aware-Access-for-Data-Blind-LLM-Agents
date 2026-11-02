@@ -1,0 +1,28 @@
+# Whitelist: this folder also holds an earlier, closed project; only Paper 2 and the shared data layer are published.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/common.py
+!/s1_prepare.py
+!/data_clean/
+/data_clean/*
+!/data_clean/catalog.json
+!/paper2/
+
+__pycache__/
+*.pyc
+
+# Patient-level tables: download the public sources and run s1_prepare.py (see README)
+*.pkl
+
+# Full LLM traces (about 185 MB); kept locally, available on request
+paper2/outputs/**/*trace*.jsonl
+
+# Manuscript draft: added after submission
+paper2/manuscript/
+
+# Run-time files
+paper2/outputs/**/run.lock
+paper2/outputs/**/STOP

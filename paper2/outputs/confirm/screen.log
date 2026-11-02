@@ -1,0 +1,68 @@
+c_brfss_01       ref AUC 0.774 needed 7/22 included
+c_brfss_02       ref AUC 0.688 needed 8/22 included
+c_brfss_03       ref AUC 0.703 needed 8/22 included
+c_brfss_04       ref AUC 0.784 needed 6/22 included
+c_brfss_05       ref AUC 0.865 needed 6/22 included
+c_brfss_06       ref AUC 0.883 needed 6/22 included
+c_brfss_07       ref AUC 0.676 needed 8/22 included
+c_brfss_08       ref AUC 0.597 needed 8/22 EXCLUDED
+c_brfss_09       ref AUC 0.627 needed 7/22 included
+c_brfss_10       ref AUC 0.742 needed 8/22 included
+c_brfss_11       ref AUC 0.792 needed 8/22 included
+c_brfss_12       ref AUC 0.752 needed 8/22 included
+c_brfss_13       ref AUC 0.822 needed 3/22 included
+c_brfss_14       ref AUC 0.664 needed 8/22 included
+c_brfss_15       ref AUC 0.631 needed 7/22 included
+c_diabetes_01    ref AUC 0.999 needed 8/38 included
+c_diabetes_02    ref AUC 0.986 needed 8/38 included
+c_diabetes_03    ref AUC 0.741 needed 9/38 included
+c_diabetes_04    ref AUC 0.831 needed 9/38 included
+c_diabetes_05    ref AUC 0.825 needed 11/38 included
+c_diabetes_06    ref AUC 0.692 needed 10/38 included
+c_diabetes_07    ref AUC 0.674 needed 8/38 included
+c_diabetes_08    ref AUC 0.719 needed 10/38 included
+c_diabetes_09    ref AUC 0.775 needed 10/38 included
+c_diabetes_10    ref AUC 0.795 needed 9/38 included
+c_diabetes_11    ref AUC 0.941 needed 9/38 included
+c_diabetes_12    ref AUC 0.947 needed 10/38 included
+c_diabetes_13    ref AUC 0.828 needed 7/38 included
+c_diabetes_14    ref AUC 0.965 needed 5/38 included
+c_diabetes_15    ref AUC 0.801 needed 8/38 included
+c_icu_01         ref AUC 0.953 needed 4/37 included
+c_icu_02         ref AUC 0.734 needed 13/37 included
+c_icu_03         ref AUC 0.807 needed 3/37 included
+c_icu_04         ref AUC 0.992 needed 2/37 included
+c_icu_05         ref AUC 0.742 needed 13/37 included
+c_icu_06         ref AUC 0.798 needed 10/37 included
+c_icu_07         ref AUC 0.861 needed 7/37 included
+c_icu_08         ref AUC 0.735 needed 10/37 included
+c_icu_09         ref AUC 0.856 needed 6/37 included
+c_icu_10         ref AUC 0.768 needed 8/37 included
+c_icu_11         ref AUC 0.758 needed 10/37 included
+c_icu_12         ref AUC 1.000 needed 1/37 included
+c_icu_13         ref AUC 0.701 needed 5/37 included
+c_icu_14         ref AUC 0.755 needed 11/37 included
+c_insurance_01   ref AUC 0.698 needed 5/7 included
+c_insurance_02   ref AUC 0.871 needed 5/7 included
+c_stroke_01      ref AUC 0.770 needed 4/12 included
+c_stroke_02      ref AUC 0.693 needed 6/12 included
+c_stroke_03      ref AUC 0.651 needed 2/12 included
+c_stroke_04      ref AUC 0.637 needed 3/12 included
+c_synthea_01     ref AUC 1.000 needed 4/32 included
+c_synthea_02     ref AUC 0.812 needed 9/32 included
+c_synthea_03     ref AUC 0.998 needed 2/32 included
+c_synthea_04     ref AUC 0.940 needed 7/32 included
+c_synthea_05     ref AUC 0.854 needed 5/32 included
+c_synthea_06     ref AUC 0.999 needed 1/32 included
+c_synthea_07     ref AUC 0.999 needed 2/32 included
+c_synthea_08     ref AUC 0.951 needed 5/32 included
+
+screened 58/58, included 57 (need 48)
+           sum  count
+dataset              
+brfss       14     15
+diabetes    15     15
+icu         14     14
+insurance    2      2
+stroke       4      4
+synthea      8      8

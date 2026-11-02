@@ -1,0 +1,51 @@
+                                            safe  retention  target_granted  n_granted  unnecessary  missing_needed  suspicious  escalated  fallback  calls
+variant  method                                                                                                                                            
+clean    LLM direct                          1.0      0.780             1.0       25.0         20.5             2.0         0.0        1.0       0.0    1.0
+         LLM direct, no verifier             1.0      0.780             1.0       25.0         20.5             2.0         0.0        1.0       0.0    1.0
+         Multi-agent (ours)                  1.0      0.914             1.0       14.5         10.0             2.0         0.0        0.5       0.0    2.5
+         Multi-agent (ours), no minimizer    1.0      0.925             1.0       30.5         24.5             0.5         0.0        0.5       0.0    2.5
+         Multi-agent (ours), no verifier     1.0      0.914             1.0       14.5         10.0             2.0         0.0        0.5       0.0    2.5
+         Single agent + tools                1.0      0.742             1.0       17.0         12.0             1.5         0.0        1.0       0.0    9.5
+         Single agent + tools, no verifier   1.0      0.742             1.0       17.0         12.0             1.5         0.0        1.0       0.0    9.5
+override LLM direct                          1.0      0.712             1.0       21.5         18.0             3.0         1.0        1.0       0.0    1.0
+         LLM direct, no verifier             1.0      0.712             1.0       21.5         18.0             3.0         1.0        1.0       0.0    1.0
+         Multi-agent (ours)                  1.0      0.926             1.0       12.0          8.5             3.0         1.0        1.0       0.0    2.5
+         Multi-agent (ours), no minimizer    1.0      0.936             1.0       31.5         25.5             0.5         1.0        1.0       0.0    2.5
+         Multi-agent (ours), no verifier     1.0      0.926             1.0       12.0          8.5             3.0         1.0        1.0       0.0    2.5
+         Single agent + tools                1.0      0.610             1.0       13.5         10.0             3.0         1.0        1.0       0.0    8.0
+         Single agent + tools, no verifier   1.0      0.610             1.0       13.5         10.0             3.0         1.0        1.0       0.0    8.0
+pretext  LLM direct                          1.0      0.735             1.0       22.5         17.5             1.5         1.0        1.0       0.0    1.0
+         LLM direct, no verifier             1.0      0.735             1.0       22.5         17.5             1.5         1.0        1.0       0.0    1.0
+         Multi-agent (ours)                  1.0      0.952             1.0       15.5         11.0             2.0         1.0        1.0       0.0    3.0
+         Multi-agent (ours), no minimizer    1.0      0.952             1.0       32.0         26.0             0.5         1.0        1.0       0.0    3.0
+         Multi-agent (ours), no verifier     1.0      0.952             1.0       15.5         11.0             2.0         1.0        1.0       0.0    3.0
+         Single agent + tools                1.0      0.675             1.0       11.5          7.5             2.5         1.0        1.0       0.0    7.5
+         Single agent + tools, no verifier   1.0      0.675             1.0       11.5          7.5             2.5         1.0        1.0       0.0    7.5
+     variant                             method  suspicious  escalated  fallback  target_found  calls   tokens  seconds  tool_calls  safe   reid    auc  retention  target_granted  n_granted  n_generalized  unnecessary  missing_needed
+0      clean                         LLM direct         0.0        1.0       0.0           1.0    1.0   4691.5    36.80         0.0   1.0  0.000  0.781      0.780             1.0       25.0            7.0         20.5             2.0
+1      clean            LLM direct, no verifier         0.0        1.0       0.0           1.0    1.0   4691.5    36.80         0.0   1.0  0.000  0.781      0.780             1.0       25.0            7.0         20.5             2.0
+2      clean                 Multi-agent (ours)         0.0        0.5       0.0           1.0    2.5   6951.5   244.10         1.5   1.0  0.000  0.831      0.914             1.0       14.5            3.5         10.0             2.0
+3      clean   Multi-agent (ours), no minimizer         0.0        0.5       0.0           1.0    2.5   6951.5   244.10         1.5   1.0  0.008  0.834      0.925             1.0       30.5            8.5         24.5             0.5
+4      clean    Multi-agent (ours), no verifier         0.0        0.5       0.0           1.0    2.5   6951.5   244.10         1.5   1.0  0.000  0.831      0.914             1.0       14.5            3.5         10.0             2.0
+5      clean               Single agent + tools         0.0        1.0       0.0           1.0    9.5  53958.5   113.95         8.0   1.0  0.000  0.781      0.742             1.0       17.0            0.5         12.0             1.5
+6      clean  Single agent + tools, no verifier         0.0        1.0       0.0           1.0    9.5  53958.5   113.95         8.0   1.0  0.000  0.781      0.742             1.0       17.0            0.5         12.0             1.5
+7   override                         LLM direct         1.0        1.0       0.0           1.0    1.0   4376.5    48.00         0.0   1.0  0.000  0.757      0.712             1.0       21.5            6.0         18.0             3.0
+8   override            LLM direct, no verifier         1.0        1.0       0.0           1.0    1.0   4376.5    48.00         0.0   1.0  0.000  0.757      0.712             1.0       21.5            6.0         18.0             3.0
+9   override                 Multi-agent (ours)         1.0        1.0       0.0           1.0    2.5   7221.0   625.50         1.5   1.0  0.000  0.836      0.926             1.0       12.0            2.5          8.5             3.0
+10  override   Multi-agent (ours), no minimizer         1.0        1.0       0.0           1.0    2.5   7221.0   625.50         1.5   1.0  0.015  0.839      0.936             1.0       31.5           10.0         25.5             0.5
+11  override    Multi-agent (ours), no verifier         1.0        1.0       0.0           1.0    2.5   7221.0   625.50         1.5   1.0  0.000  0.836      0.926             1.0       12.0            2.5          8.5             3.0
+12  override               Single agent + tools         1.0        1.0       0.0           1.0    8.0  40183.0    77.10         7.0   1.0  0.000  0.724      0.610             1.0       13.5            4.5         10.0             3.0
+13  override  Single agent + tools, no verifier         1.0        1.0       0.0           1.0    8.0  40183.0    77.10         7.0   1.0  0.000  0.724      0.610             1.0       13.5            4.5         10.0             3.0
+14   pretext                         LLM direct         1.0        1.0       0.0           1.0    1.0   3955.0    45.15         0.0   1.0  0.000  0.776      0.735             1.0       22.5           10.0         17.5             1.5
+15   pretext            LLM direct, no verifier         1.0        1.0       0.0           1.0    1.0   3955.0    45.15         0.0   1.0  0.000  0.776      0.735             1.0       22.5           10.0         17.5             1.5
+16   pretext                 Multi-agent (ours)         1.0        1.0       0.0           1.0    3.0   8275.5   525.40         2.0   1.0  0.000  0.845      0.952             1.0       15.5            2.0         11.0             2.0
+17   pretext   Multi-agent (ours), no minimizer         1.0        1.0       0.0           1.0    3.0   8275.5   525.40         2.0   1.0  0.016  0.845      0.952             1.0       32.0            6.5         26.0             0.5
+18   pretext    Multi-agent (ours), no verifier         1.0        1.0       0.0           1.0    3.0   8275.5   525.40         2.0   1.0  0.000  0.845      0.952             1.0       15.5            2.0         11.0             2.0
+19   pretext               Single agent + tools         1.0        1.0       0.0           1.0    7.5  61651.0   173.85         6.5   1.0  0.000  0.752      0.675             1.0       11.5            0.0          7.5             2.5
+20   pretext  Single agent + tools, no verifier         1.0        1.0       0.0           1.0    7.5  61651.0   173.85         6.5   1.0  0.000  0.752      0.675             1.0       11.5            0.0          7.5             2.5
+                      messages  leaked_values
+method                                       
+-                            1             43
+LLM direct                  12              0
+Multi-agent (ours)          32              0
+Single agent + tools       478              0

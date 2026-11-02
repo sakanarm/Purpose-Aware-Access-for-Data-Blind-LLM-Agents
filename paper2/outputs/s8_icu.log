@@ -1,0 +1,14 @@
+icu_p1 needed 4 / 37 ref AUC 0.806 needed AUC 0.803
+                      method  safe  reid   auc  retention  target_granted  n_granted  n_generalized  unnecessary  missing_needed
+                As requested     0 1.000 0.806      1.000               1         37              0           32               0
+               Deny if risky     1 0.000 0.500      0.000               0          0              0            0               4
+Rule (drop ids, coarsen QIs)     1 0.002 0.808      1.008               1         35              4           30               0
+        Purpose-blind greedy     1 0.002 0.808      1.008               1         35              4           30               0
+         Target-known search     1 0.000 0.803      0.993               1          5              0            0               0
+icu_p2 needed 7 / 37 ref AUC 0.925 needed AUC 0.92
+                      method  safe  reid   auc  retention  target_granted  n_granted  n_generalized  unnecessary  missing_needed
+                As requested     0 1.000 0.925      1.000               1         37              0           29               0
+               Deny if risky     1 0.000 0.500      0.000               0          0              0            0               7
+Rule (drop ids, coarsen QIs)     1 0.002 0.921      0.990               1         35              4           27               0
+        Purpose-blind greedy     1 0.002 0.921      0.990               1         35              4           27               0
+         Target-known search     1 0.000 0.920      0.988               1          8              0            0               0

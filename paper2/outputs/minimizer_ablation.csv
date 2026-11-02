@@ -1,0 +1,109 @@
+purpose,dataset,variant,method,safe,reid,auc,retention,target_granted,n_granted,n_generalized,unnecessary,missing_needed
+brfss_p1,brfss,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.7852404525996999,0.990895608109214,1,11,1,2,1
+brfss_p1,brfss,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.7845685692789105,0.988561555468138,1,15,0,7,2
+brfss_p1,brfss,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.7821866668114125,0.9802870745083824,1,9,2,2,3
+brfss_p1,brfss,override,"LLM direct, + minimizer (all columns)",1,0.0,0.7877699921167505,0.999682964794213,1,9,3,0,1
+brfss_p1,brfss,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.7845685692789105,0.988561555468138,1,15,0,7,2
+brfss_p1,brfss,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.7843836508789889,0.9879191682167123,1,9,2,3,4
+brfss_p1,brfss,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.7821290954656636,0.9800870776526223,1,8,2,1,3
+brfss_p1,brfss,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.7846423967730338,0.9888180244893366,1,16,0,9,3
+brfss_p1,brfss,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.7851973132391074,0.9907457464659646,1,5,2,0,5
+brfss_p2,brfss,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.774314548284125,0.8311106958589485,1,4,1,0,6
+brfss_p2,brfss,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.8241868577244306,0.9822124513520379,1,6,0,1,5
+brfss_p2,brfss,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8286781748501054,0.9958201208139454,1,8,1,1,3
+brfss_p2,brfss,override,"LLM direct, + minimizer (all columns)",1,0.0,0.7583823271143405,0.782839689068294,1,3,1,0,7
+brfss_p2,brfss,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.8270582236108358,0.9909120369731553,1,6,1,1,5
+brfss_p2,brfss,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8248046084248079,0.9840840954834535,1,5,1,0,5
+brfss_p2,brfss,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.7853651435551369,0.8645914863704073,1,4,1,0,6
+brfss_p2,brfss,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.8106520085264245,0.9412049364183075,1,8,2,1,3
+brfss_p2,brfss,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8145880332292105,0.9531301961251394,1,7,2,1,4
+diabetes_p1,diabetes,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.6361590796780816,0.9483083945880586,1,9,2,5,5
+diabetes_p1,diabetes,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6400058921686786,0.9751003249232532,1,6,0,1,4
+diabetes_p1,diabetes,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.6189222294711424,0.8282587454119363,1,9,6,3,3
+diabetes_p1,diabetes,override,"LLM direct, + minimizer (all columns)",1,0.0,0.6447730109670088,1.0083019210646431,1,5,0,0,4
+diabetes_p1,diabetes,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6447730109670088,1.0083019210646431,1,5,0,0,4
+diabetes_p1,diabetes,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.622626983791139,0.8540612818997378,1,5,4,1,5
+diabetes_p1,diabetes,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.6238556991927798,0.8626189273589352,1,7,4,3,5
+diabetes_p1,diabetes,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6389889107420297,0.968017345027153,1,4,0,0,5
+diabetes_p1,diabetes,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.6099507054585914,0.7657746896040887,1,21,11,15,3
+diabetes_p2,diabetes,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.9838947696143312,0.9702394877544154,1,7,0,0,1
+diabetes_p2,diabetes,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.7844966203341265,0.5704336407703761,1,6,1,5,7
+diabetes_p2,diabetes,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9942931102517134,0.9910888155980508,1,8,0,0,0
+diabetes_p2,diabetes,override,"LLM direct, + minimizer (all columns)",1,0.0,0.9942931102517134,0.9910888155980508,1,8,0,0,0
+diabetes_p2,diabetes,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9228368044664587,0.8478144223303474,1,4,0,1,5
+diabetes_p2,diabetes,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9942931102517134,0.9910888155980508,1,8,0,0,0
+diabetes_p2,diabetes,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.9942931102517134,0.9910888155980508,1,8,0,0,0
+diabetes_p2,diabetes,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9838947696143312,0.9702394877544154,1,7,0,0,1
+diabetes_p2,diabetes,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9942931102517134,0.9910888155980508,1,8,0,0,0
+icu_p1,icu,clean,"LLM direct, + minimizer (all columns)",1,6.542147787118511e-05,0.7575816562128844,0.8429983443998101,1,17,2,14,2
+icu_p1,icu,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6739227831101992,0.5692044238357191,1,4,0,1,2
+icu_p1,icu,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.7974271208533242,0.9734022761765784,1,6,0,3,2
+icu_p1,icu,override,"LLM direct, + minimizer (all columns)",1,6.542147787118511e-05,0.7419921917041155,0.7919780467427813,1,7,1,4,2
+icu_p1,icu,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6739227831101992,0.5692044238357191,1,4,0,1,2
+icu_p1,icu,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.7992462491531992,0.9793558140472177,1,7,1,4,2
+icu_p1,icu,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.6851983041576375,0.6061062968766312,1,7,5,4,2
+icu_p1,icu,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6739227831101992,0.5692044238357191,1,4,0,1,2
+icu_p1,icu,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8200986689735236,1.047600407407294,1,7,1,3,1
+icu_p2,icu,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.7964109042479364,0.6966435076179299,1,14,7,10,4
+icu_p2,icu,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.8806172764533925,0.8945506077154403,1,7,0,2,3
+icu_p2,icu,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8613537311873269,0.8492762148001125,1,7,5,2,3
+icu_p2,icu,override,"LLM direct, + minimizer (all columns)",1,0.0,0.7746122700232791,0.645410989549556,1,11,6,8,5
+icu_p2,icu,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.7669758247443571,0.627463336650826,1,8,5,5,5
+icu_p2,icu,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8845407734070408,0.9037718564642095,1,3,0,0,5
+icu_p2,icu,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.8627593222812512,0.8525797231930725,1,7,5,2,3
+icu_p2,icu,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.8245898803621458,0.7628715055760089,1,8,0,4,4
+icu_p2,icu,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8805432148603652,0.8943765435119753,1,6,0,2,4
+insurance_p1,insurance,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.944409734303172,0.9869874520479994,1,3,2,0,2
+insurance_p1,insurance,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9479137294832046,0.9947694581738364,1,3,0,0,2
+insurance_p1,insurance,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.944409734303172,0.9869874520479994,1,3,2,0,2
+insurance_p1,insurance,override,"LLM direct, + minimizer (all columns)",1,0.0,0.944409734303172,0.9869874520479994,1,3,2,0,2
+insurance_p1,insurance,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9353078124306817,0.9667730373215644,1,4,3,0,1
+insurance_p1,insurance,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.944409734303172,0.9869874520479994,1,3,2,0,2
+insurance_p1,insurance,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.944409734303172,0.9869874520479994,1,3,2,0,2
+insurance_p1,insurance,pretext,"Single agent + tools, + minimizer (all columns)",1,0.028421839940164548,0.936266061183809,0.9689012073913766,1,5,1,0,0
+insurance_p1,insurance,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.944409734303172,0.9869874520479994,1,3,1,0,2
+insurance_p2,insurance,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.520510430236271,0.0415862491592689,1,2,1,0,2
+insurance_p2,insurance,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9692523807764527,0.9514401307408964,1,2,1,0,2
+insurance_p2,insurance,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9885339908537031,0.9905348660354492,1,4,3,0,0
+insurance_p2,insurance,override,"LLM direct, + minimizer (all columns)",1,0.0,0.5,0.0,1,1,0,0,3
+insurance_p2,insurance,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9805834937562334,0.9744147091481147,1,3,2,0,1
+insurance_p2,insurance,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.5669743627744741,0.13579493484720423,1,3,0,2,3
+insurance_p2,insurance,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.5,0.0,1,1,0,0,3
+insurance_p2,insurance,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9692523807764527,0.9514401307408964,1,2,1,0,2
+insurance_p2,insurance,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9824018980986066,0.9781016438044388,1,4,3,1,1
+stroke_p1,stroke,clean,"LLM direct, + minimizer (all columns)",1,0.0005870841487279843,0.8199881924139157,0.9837220297746748,1,4,1,2,2
+stroke_p1,stroke,clean,"Single agent + tools, + minimizer (all columns)",1,0.005675146771037182,0.823842213145913,0.9955702328870255,1,4,0,0,0
+stroke_p1,stroke,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.00019569471624266145,0.8080317859669104,0.9469651096829333,1,5,3,1,0
+stroke_p1,stroke,override,"LLM direct, + minimizer (all columns)",1,0.00019569471624266145,0.8080317859669104,0.9469651096829333,1,5,3,1,0
+stroke_p1,stroke,override,"Single agent + tools, + minimizer (all columns)",1,0.005675146771037182,0.823842213145913,0.9955702328870255,1,4,0,0,0
+stroke_p1,stroke,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.8099576154932683,0.9528855810490087,1,4,1,0,0
+stroke_p1,stroke,pretext,"LLM direct, + minimizer (all columns)",1,0.00019569471624266145,0.8080317859669104,0.9469651096829333,1,5,3,1,0
+stroke_p1,stroke,pretext,"Single agent + tools, + minimizer (all columns)",1,0.005675146771037182,0.823842213145913,0.9955702328870255,1,4,0,0,0
+stroke_p1,stroke,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.00019569471624266145,0.8080317859669104,0.9469651096829333,1,5,3,1,0
+stroke_p2,stroke,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.6703867978358303,0.5313147546642333,1,3,0,0,2
+stroke_p2,stroke,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6703867978358303,0.5313147546642333,1,3,0,0,2
+stroke_p2,stroke,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.00019569471624266145,0.8377565762300193,1.0532215800474822,1,4,2,1,2
+stroke_p2,stroke,override,"LLM direct, + minimizer (all columns)",1,0.0,0.6703867978358303,0.5313147546642333,1,3,0,0,2
+stroke_p2,stroke,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6703867978358303,0.5313147546642333,1,3,0,0,2
+stroke_p2,stroke,override,"Multi-agent (ours), + minimizer (all columns)",1,0.00019569471624266145,0.8377565762300193,1.0532215800474822,1,4,2,1,2
+stroke_p2,stroke,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.6703867978358303,0.5313147546642333,1,3,0,0,2
+stroke_p2,stroke,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.6703867978358303,0.5313147546642333,1,3,0,0,2
+stroke_p2,stroke,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.00019569471624266145,0.8377565762300193,1.0532215800474822,1,4,2,1,2
+synthea_p1,synthea,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.8764145065840111,0.7577210072099998,1,5,3,4,1
+synthea_p1,synthea,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9286617191941153,0.862894452628229,1,4,1,3,1
+synthea_p1,synthea,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.897495087542523,0.8001561385799716,1,6,4,5,1
+synthea_p1,synthea,override,"LLM direct, + minimizer (all columns)",1,0.0,0.9323410929625573,0.8703010183927279,1,5,1,4,1
+synthea_p1,synthea,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.9323410929625573,0.8703010183927279,1,5,1,4,1
+synthea_p1,synthea,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9335163828300209,0.8726668725417085,1,2,1,0,0
+synthea_p1,synthea,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.8736621171187419,0.7521804574134883,1,5,3,4,1
+synthea_p1,synthea,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.897495087542523,0.8001561385799716,1,6,4,5,1
+synthea_p1,synthea,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9335163828300209,0.8726668725417085,1,2,1,0,0
+synthea_p2,synthea,clean,"LLM direct, + minimizer (all columns)",1,0.0,0.8629537140136169,0.7741237503563309,1,4,0,2,5
+synthea_p2,synthea,clean,"Single agent + tools, + minimizer (all columns)",1,0.0,0.5,0.0,0,0,0,0,6
+synthea_p2,synthea,clean,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9595439288490025,0.98013563691134,1,3,1,0,4
+synthea_p2,synthea,override,"LLM direct, + minimizer (all columns)",1,0.0,0.8629537140136169,0.7741237503563309,1,4,0,2,5
+synthea_p2,synthea,override,"Single agent + tools, + minimizer (all columns)",1,0.0,0.5,0.0,0,0,0,0,6
+synthea_p2,synthea,override,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9595439288490025,0.98013563691134,1,3,1,0,4
+synthea_p2,synthea,pretext,"LLM direct, + minimizer (all columns)",1,0.0,0.8629537140136169,0.7741237503563309,1,4,1,2,5
+synthea_p2,synthea,pretext,"Single agent + tools, + minimizer (all columns)",1,0.0,0.8517209793864976,0.7501660766349463,1,3,1,1,5
+synthea_p2,synthea,pretext,"Multi-agent (ours), + minimizer (all columns)",1,0.0,0.9595439288490025,0.98013563691134,1,3,1,0,4
